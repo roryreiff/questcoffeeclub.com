@@ -1,0 +1,16 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        padding: 0 225px;
+        margin-bottom: 40px;
+    }
+}
+
+#hero-landing {
+    height: 850px;
+    background: grey;
+    background-image: url(/assets/images/qcc-hero-landing@2x.jpg);
+    background-size: cover;
+}
