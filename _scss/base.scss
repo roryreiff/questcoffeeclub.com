@@ -1,4 +1,6 @@
-body {
+body, * {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400; /* normal */
 }
 
 .outer {
@@ -8,4 +10,30 @@ body {
 .inner {
     width: 1240px;
     margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* hero */
+h1 {
+    color: #fff;
+    font-size: 58px;
+    text-align: center;
+    line-height: 72px;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #B3B3B3;
+    text-align: left;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #C9C9C9;
+    margin: 60px 0 0 0;
 }

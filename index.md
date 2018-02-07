@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<div class="inner">
-    <h1>Welcome to Quest Coffee Club</h1>
+{% include hero-landing.html %}
+
+<div class="outer">
+    <div class="inner">
+        <h2>How the heck does this thing work?</h2>
+    </div>
 </div>
+
 {% include footer.html %}

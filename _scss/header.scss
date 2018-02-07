@@ -1,20 +1,25 @@
 header {
-    background: blue;
+    position: absolute;
+    padding: 34px 0;
+    
 }
 
 
 nav {    
-    
-    padding: 34px;
+    float: right;
+    font-size: 12px;
+    letter-spacing: 1.6px;
     text-transform: uppercase;
-    
+    width: auto;
+    font-weight: 500;
     a {
+        color: #fff;
         display: inline-block;
-        background: yellow;
         height: 22px;
         line-height: 22px;
         padding: 0 4px;
-        margin: 0 20px;
+        margin: 0 0 0 30px;
+        
     }
     
     span.new {
