@@ -20,6 +20,20 @@
     border: 1px solid #fff;
 }
 
+.button-with-arrow {
+}
+
+.button-arrow {
+    position: relative;
+    background-image: url(/assets/images/button-arrow@2x.png);
+    width: 5px;
+    height: 50;
+    right: -10px;
+    background-size: 5px 9px;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
 /* sizes */
 .button-large {
     height: 50px;
