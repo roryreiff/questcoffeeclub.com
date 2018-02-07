@@ -1,0 +1,33 @@
+header {
+    background: blue;
+}
+
+
+nav {    
+    
+    padding: 34px;
+    text-transform: uppercase;
+    
+    a {
+        display: inline-block;
+        background: yellow;
+        height: 22px;
+        line-height: 22px;
+        padding: 0 4px;
+        margin: 0 20px;
+    }
+    
+    span.new {
+        display: inline-block;
+        height: 22px;
+        background-color: #EF623B;
+        border-radius: 22px;
+        font-size: 10px;
+        float: right;
+        line-height: 22px;
+        padding: 0 8px;
+        margin-left: 4px;
+    }
+}
+    
+    
