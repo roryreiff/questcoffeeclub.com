@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reviews
-permalink: /reviews/
+permalink: /how-it-works/
 ---
 
-<h1>Reviews</h1>
+<h1>How it works</h1>

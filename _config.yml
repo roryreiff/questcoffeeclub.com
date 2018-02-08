@@ -48,3 +48,9 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+collections: 
+- customer_reviews
+    
+collections_dir: my_collections
