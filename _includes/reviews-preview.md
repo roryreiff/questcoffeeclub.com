@@ -1,3 +1,4 @@
+<div class="expand">
 {% for review in site.customer_reviews %}
     <div class="box box-review half">
         <p>"{{review.comment}}"</p>
@@ -12,3 +13,6 @@
         </div>
     </div>
 {% endfor %}
+</div>
+<div class="spacer-40"></div>
+<a href="/reviews" class="button button-secondary-white button-with-arrow button-medium button-right">See all reviews<span class="button-arrow"></span></a>
