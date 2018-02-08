@@ -2,6 +2,15 @@ header {
     position: absolute;
     padding: 34px 0;
     
+    #logo {
+        float: left;
+        width: 102px;
+        height: 35px;
+        margin-top: -8px;
+        background: url(/assets/images/QCC-logo@2x.png);
+        background-size: 102px 35px;
+    }
+    
 }
 
 

@@ -3,7 +3,6 @@
     color: #fff;
     font-weight: 500;
     display: inline-flex;
-    margin: 0 20px;
 }
 
 /* styles */
@@ -18,20 +17,33 @@
 
 .button-secondary {
     border: 1px solid #fff;
+    
+    .button-arrow {
+        position: relative;
+        background-image: url(/assets/images/button-arrow@2x.png);
+        width: 5px;
+        height: 50;
+        right: -10px;
+        background-size: 5px 9px;
+        background-position: 0 50%;
+        background-repeat: no-repeat;
+    }
 }
 
-.button-with-arrow {
-}
-
-.button-arrow {
-    position: relative;
-    background-image: url(/assets/images/button-arrow@2x.png);
-    width: 5px;
-    height: 50;
-    right: -10px;
-    background-size: 5px 9px;
-    background-position: 0 50%;
-    background-repeat: no-repeat;
+.button-secondary-white {
+    color: #B3B3B3;
+    border: 1px solid #C8C8C8;
+    
+    .button-arrow {
+        position: relative;
+        background-image: url(/assets/images/button-arrow-grey@2x.png);
+        width: 4px;
+        height: 44;
+        right: -10px;
+        background-size: 4px 8px;
+        background-position: 0 50%;
+        background-repeat: no-repeat;
+    }
 }
 
 /* sizes */
@@ -42,4 +54,22 @@
     letter-spacing: 1.6px;
     font-size: 14px;
     padding: 0 50px;
+}
+
+.button-medium {
+    height: 44px;
+    line-height: 44px;
+    border-radius: 44px;
+    letter-spacing: 1.6px;
+    font-size: 12px;
+    padding: 0 30px 0 24px;
+}
+
+/* layout */
+.button-center {
+    margin: 0 20px;
+}
+
+.button-left {
+    margin: 0;
 }
