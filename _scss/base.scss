@@ -11,7 +11,7 @@ h1 {
     line-height: 72px;
 }
 
-h2 {
+h2, h5 {
     display: inline-block;
     font-weight: 500;
     font-size: 14px;
@@ -31,7 +31,7 @@ h3 {
     margin-bottom: 35px;
 }
 
-p {
+p, a {
     font-weight: 400;
     font-size: 28px;
     color: #B3B3B3;
@@ -41,13 +41,29 @@ p {
 
 /* layout */
 .half {
-    width: 595px;
+    width: 50%;
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.half-with-gutter {
+    width: 48%;
 }
 
 .third {
     width: 380px;
 }
 
+.two-thirds {
+    width: 800px;
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
 .outer {
     width: 100%;
 }
@@ -67,12 +83,51 @@ p {
     justify-content: space-between; 
 }
 
+.clear {
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
 .spacer {
+    display: block;
+    clear: all;
     width: 100%;
     height: 60px;
 }
 
+.spacer-120 {
+    display: block;
+    clear: all;
+    width: 100%;
+    height: 120px;
+}
+
 .spacer-40 { 
-    width: 40px;
+    display: block;
+    clear: all;
+    width: 100%;
     height: 40px;
+}
+
+.spacer-50 { 
+    display: block;
+    clear: all;
+    width: 100%;
+    height: 50px;
+}
+
+input {
+    height: 50px;
+    border-radius: 4px;
+    padding: 0 20px;
+    margin: 0;
+    line-height: 50px;
+    border: 1px solid #C8C8C8;
+    font-size: 20px;
+    float: left;
+    color: rgba(41,41,41,1);
+}
+
+input::placeholder {
+    color: rgba(41,41,41,.35);
 }

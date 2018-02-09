@@ -1,6 +1,11 @@
-<div class="expand">
-{% for review in site.customer_reviews %}
-    <div class="box box-review half">
+{% assign featuredReviews = site.customer_reviews | where: 'featured', 't' | sort: 'date'%}
+
+<div id="reviews-wall">
+{% for review in featuredReviews reversed limit: 5 %}
+{% assign current_index = forloop.index0 }}
+{% assign next_index = current_index | plus: 1 %}
+{% assign prev_index = current_index | minus: 1 %}
+    <div class="box box-review half-with-gutter {% cycle 'odd', 'even' %}">
         <p>"{{review.comment}}"</p>
         <div class="expand">
             <div class="person">
@@ -16,3 +21,4 @@
 </div>
 <div class="spacer-40"></div>
 <a href="/reviews" class="button button-secondary-white button-with-arrow button-medium button-right">See all reviews<span class="button-arrow"></span></a>
+<div class="clear"></div>

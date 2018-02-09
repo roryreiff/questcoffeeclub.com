@@ -3,6 +3,7 @@
     color: #fff;
     font-weight: 500;
     display: inline-flex;
+    cursor: pointer;
 }
 
 /* styles */
@@ -13,6 +14,15 @@
     background: -webkit-linear-gradient(left, #6879e4 0%,#7550a8 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #6879e4 0%,#7550a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6879e4', endColorstr='#7550a8',GradientType=1 ); /* IE6-9 */
+}
+
+.button-main:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6879e4+0,7550a8+100 */
+    background: #6868E0; /* Old browsers */
+    background: -moz-linear-gradient(left, #6868E0 0%, #753A9D 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #6868E0 0%,#753A9D 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #6868E0 0%,#753A9D 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6868E0', endColorstr='#753A9D',GradientType=1 ); /* IE6-9 */
 }
 
 .button-secondary {
@@ -46,6 +56,17 @@
     }
 }
 
+.button-secondary-white-filled {
+    color: #292929;
+    background: #fff;
+    border: none;
+}
+
+.mailing-list-button {
+    background: #292929;
+    color: #fff;
+}
+
 /* sizes */
 .button-large {
     height: 50px;
@@ -54,6 +75,18 @@
     letter-spacing: 1.6px;
     font-size: 14px;
     padding: 0 50px;
+}
+
+input.large-button {
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    letter-spacing: 1.6px;
+    font-size: 14px;
+    padding: 0 20px;
+    border: none;
+    float: left;
+    margin: 0 0 0 15px;
 }
 
 .button-medium {

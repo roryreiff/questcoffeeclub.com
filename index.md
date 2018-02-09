@@ -28,14 +28,16 @@ layout: default
 
 <div class="outer">
     <div class="inner">
-        <h2>We ship some pretty good coffee</h2>
         <div class="expand">
-            <div class="half">
+            <div class="third">
+                <h2>We ship some pretty good coffee</h2>
                 <h3>Say hi to our February coffee, Venga Le Digo!</h3>
-                <p>Tasting notes of Chocolate, Toffee, Lemon, Cherry, Peanut. This beauty from the Cauca region is as sweet and complex as it's all women producers.</p>
+                <p>With tasting notes of chocolate, toffee, lemon, cherry, and peanut, this beauty from the Cauca region is as sweet and complex as it's all women producers.</p>
                 <a href="/gift-subscription" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
             </div>
-            <div class="half"></div>
+            <div class="two-thirds">
+                <img src="/assets/images/coffee-features/venga-le-digo-coffee@2x.jpg" title="Venga Le Digo!, our February coffee." />
+            </div>
         </div>
     </div>
 </div>
@@ -46,7 +48,10 @@ layout: default
     <div class="inner">
         <h2>People seem to like us</h2>
         {% include reviews-preview.md %}
-    </div>
-</div>
+    </div> 
+</div> 
 
+<div class="spacer-120"></div>
+{% include cta.html %}
+<div class="spacer-120"></div>
 {% include footer.html %}
