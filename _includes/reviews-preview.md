@@ -1,7 +1,7 @@
-{% assign featuredReviews = site.customer_reviews | where: 'featured', 't' | sort: 'date'%}
+{% assign featuredReviews = (site.customer_reviews | where: 'featured', 't' | sort: 'date') | reverse  %}
 
 <div id="reviews-wall">
-{% for review in featuredReviews reversed limit: 5 %}
+{% for review in featuredReviews limit: 5 %}
 {% assign current_index = forloop.index0 }}
 {% assign next_index = current_index | plus: 1 %}
 {% assign prev_index = current_index | minus: 1 %}
