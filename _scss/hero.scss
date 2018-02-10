@@ -1,4 +1,4 @@
-.hero {
+.hero, .hero-sub {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,10 +8,59 @@
     }
 }
 
+.hero-sub {
+    height: 600px;
+    
+    h1 {
+        margin-bottom: 20px;
+    }
+    
+    p { 
+        color: #fff;
+        line-height: 28px; 
+        margin-bottom: 20px;
+    }
+    
+    p.small { 
+        font-size: 20px;
+        line-height: 28px;
+        margin-right: 10px;
+    }
+}
+
+/* images */
 #hero-landing {
     height: 850px;
     background: grey;
-    background-image: url(/assets/images/qcc-hero-landing@2x.jpg);
+    background-image: url(/assets/images/hero/hero-landing@2x.jpg);
     background-size: cover;
     background-position: 50% 50%;
+}
+
+#hero-reviews {
+    background: grey;
+    background-image: url(/assets/images/hero/hero-reviews@2x.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    
+    .stars {
+        width: 144px;
+        height: 24px;
+        background-size: 144px 22px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+    }
+    .stars-4-8 {
+        background-image: url(/assets/images/hero/hero-stars-4.8@2x.png);
+    }
+    
+    .details-i {
+        width: 18px;
+        height: 28px;
+        background-size: 18px 18px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-image: url(/assets/images/hero/hero-details-i@2x.png); 
+    }
 }

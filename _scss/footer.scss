@@ -1,0 +1,65 @@
+footer {
+    
+    #mce-EMAIL {
+        width: 275px;
+    }
+    
+    .mailing-list-image {
+        display: block;
+        width: 70px;
+        height: 70px;
+        background: url(/assets/images/footer-mailing-list@2x.png);
+        background-size: 70px 70px;
+    }
+    
+    .connect-with-us-image {
+        display: block;
+        width: 70px;
+        height: 70px;
+        background: url(/assets/images/footer-connect-with-us@2x.png);
+        background-size: 70px 70px;
+    }
+    
+    h3 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }   
+    
+    h5 {
+        margin-bottom: 30px;
+    }
+    
+    p {
+        margin-bottom: 30px;
+        margin-right: 75px;
+        
+    }
+    
+    a.social-link {
+        display: inline-block;
+        margin-right: 30px;
+        margin-top: 6px;
+     }   
+    
+    .instagram {
+        width: 40px;
+        height: 40px;
+        background-size: 40px 40px;
+        background-image: url(/assets/images/instagram-icon@2x.png);
+    }
+        
+    .facebook {
+        width: 21px;
+        height: 40px;
+        background-size: 21px 40px;
+        background-image: url(/assets/images/facebook-icon@2x.png);
+    }
+    
+    a {
+        color: rgba(41,41,41,1);
+    }
+    a:hover {
+        opacity: .65;
+    }
+    
+}

@@ -53,5 +53,3 @@ layout: default
 
 <div class="spacer-120"></div>
 {% include cta.html %}
-<div class="spacer-120"></div>
-{% include footer.html %}
