@@ -45,6 +45,64 @@
     background-image: url(/assets/images/hero/hero-landing@2x.jpg);
     background-size: cover;
     background-position: 50% 50%;
+    
+    select {
+        height: 36px;
+        line-height: 36px;
+        -webkit-appearance: none;
+         -moz-appearance: none;
+          appearance: none;
+          color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 35px 0 20px;
+        background: #A68ABD;
+        color: #fff;
+        border: none;
+        border-radius: 36px;
+        background-image: url(/assets/images/dropdown-arrow-white@2x.png);
+        background-size: 11px 7px;
+        background-repeat: no-repeat;
+        background-position: 72% 50%;
+    }
+    .box {
+        width: 450px;
+    }
+    .price, p, li {
+        font-size: 24px;
+        color: #B5B5B5;
+        .amount { 
+            color: #292929;
+            font-size: 64px; 
+        }
+    }
+    p, ul { margin: 0; padding: 0; }
+    ul { margin: 0 0 30px 0; }
+    li { color: #292929; }
+    .price { 
+        padding: 50px 0 0 0;
+        margin-bottom: 40px;
+        align-items: baseline;
+    }
+    p.highlight {
+        line-height: 24px;
+        color: #774D9B;
+        font-size: 14px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-bottom: 40px;
+        .circle {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 6px;
+            background-color: #D0C1DC;
+            margin: 10px 15px 0 15px;
+        }
+    }
+    .button { padding: 0 100px;}
+    
 }
 
 #hero-gift-subscriptions {
