@@ -6,24 +6,33 @@ permalink: /gift-subscriptions/
 
 {% include hero-gift-subscriptions.html %}
 <div class="spacer-60"></div>
+{% include gift-subscription-boxes.html %}
+<div class="spacer-120"></div>
 <div class="outer">
     <div class="inner">
         <div class="expand">
-            <div class="half">
-                <h3>Want to purchase this as a gift?</h3>
-                <p>Wow them each month with expertly crafted, single origin Colombian coffee. Guarnateed to impress even the most discerning coffee snob.</p>
-                <a href="/gift-subscriptions" class="button button-secondary-white button-with-arrow button-medium button-left">Shop Gift Subscriptions<span class="button-arrow"></span></a>
+            <div class="third">
+                <h2>What will they get?</h2>
+                <ul class="checklist">
+                    <li>Whole-bean coffee (12oz)</li>
+                    <li>Tasting notes</li>
+                    <li>Story behind the coffee</li>
+                    <li>Handwritten welcome note</li>
+                </ul>
+                <span class="highlight-bubble">Includes Free Shipping</span>
             </div>
-            <div class="half" style="background-color: grey;"></div>
-        </div>
-        <div class="spacer-120"></div>
-        <div class="expand">
-            <div class="half" style="background-color: grey;"></div>
-            <div class="half">
-                <h3>Want to upgrade your office coffee?</h3>
-                <p>Our customized business subscription plans set you up to have spectacular coffee on hand at all times in your workspace.</p>
-                <a href="/business-subscriptions" class="button button-secondary-white button-with-arrow button-medium button-left">See more about business plans<span class="button-arrow"></span></a>
+            <div class="two-thirds">
+                <img src="/assets/images/temp-image-two-thirds@2x.png" />
             </div>
         </div>
     </div>
 </div>
+<div class="spacer-120"></div>
+<div class="outer">
+    <div class="inner">
+        <h2>What are people saying about us?</h2>
+        {% include reviews-preview.md %}
+    </div> 
+</div> 
+<div class="spacer-60"></div>
+{% include cta.html %}

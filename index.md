@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include hero-landing.html %}
-
+<div class="spacer-60"></div>
 <div class="outer">
     <div class="inner">
         <h2>How the heck does this thing work?</h2>
@@ -23,9 +23,7 @@ layout: default
         </div>
     </div>
 </div>
-
-<div class="spacer"></div>
-
+<div class="spacer-120"></div>
 <div class="outer">
     <div class="inner">
         <div class="expand">
@@ -41,15 +39,12 @@ layout: default
         </div>
     </div>
 </div>
-
-<div class="spacer"></div>
-
+<div class="spacer-120"></div>
 <div class="outer">
     <div class="inner">
         <h2>People seem to like us</h2>
         {% include reviews-preview.md %}
     </div> 
 </div> 
-
-<div class="spacer-120"></div>
+<div class="spacer-60"></div>
 {% include cta.html %}

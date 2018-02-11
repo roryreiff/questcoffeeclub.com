@@ -21,7 +21,7 @@ h2, h5 {
     text-align: left;
     padding-bottom: 4px;
     border-bottom: 2px solid #C9C9C9;
-    margin: 60px 0 60px 0;
+    margin: 0 0 60px 0;
 }
 
 h3 {
@@ -32,12 +32,18 @@ h3 {
     color: #292929;
 }
 
-p, a {
+p, a, li {
     font-weight: 400;
     font-size: 28px;
     color: #B3B3B3;
     line-height: 40px;
     margin-bottom: 40px;
+}
+
+li {
+    line-height: 28px;
+    color: #292929;
+    margin: 10px 0;
 }
 
 /* layout */
@@ -136,4 +142,28 @@ input {
 
 input::placeholder {
     color: rgba(41,41,41,.35);
+}
+
+.highlight-bubble {
+    margin-top: 20px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    background: #A68ABD;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-radius: 28px;
+    padding: 0 16px;
+}
+ul.checklist {
+    li {
+        background-image: url(/assets/images/list-checkmark@2x.png);
+        background-size: 22px 22px;
+        background-position: 0 50%;
+        background-repeat: no-repeat;
+        padding-left: 34px;
+        margin: 15px 0;
+    }
 }
