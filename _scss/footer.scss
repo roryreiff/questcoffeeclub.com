@@ -63,3 +63,15 @@ footer {
     }
     
 }
+
+@media screen and (max-width: 640px) { 
+    footer {
+        #mce-EMAIL {
+            width: 140px;
+        }
+        h3 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+    }
+}

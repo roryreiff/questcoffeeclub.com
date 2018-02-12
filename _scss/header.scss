@@ -11,6 +11,14 @@ header {
         background-size: 102px 35px;
     }
     
+    #menu-button {
+        display: none;
+        float: right;
+        width: 50px;
+        height: 25px;
+        background: #fff;
+    }
+    
 }
 
 
@@ -51,3 +59,13 @@ nav {
 }
     
     
+@media screen and (max-width: 1240px) { 
+    header {
+        nav {
+            display: none;
+        }
+        #menu-button {
+            display: inline-block;
+        }
+    }
+}

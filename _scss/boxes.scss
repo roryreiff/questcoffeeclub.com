@@ -81,4 +81,18 @@
         padding: 0 50px;
         margin-bottom: 50px;
     }
+    p.price {
+        color: #774D9B;   
+    }
+}
+
+/* responsive */
+@media screen and (max-width: 1240px) { 
+    
+}
+
+@media screen and (max-width: 640px) { 
+    .box {
+        margin-bottom: 30px;
+    }
 }

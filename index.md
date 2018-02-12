@@ -6,7 +6,7 @@ layout: default
 <div class="spacer-60"></div>
 <div class="outer">
     <div class="inner">
-        <h2>How the heck does this thing work?</h2>
+        <h2>How does this work?</h2>
         <div class="expand">
             <div class="box third">
                 <img src="/assets/images/qcc-landing-hdtw-1@2x.png" title="" />
@@ -28,7 +28,7 @@ layout: default
     <div class="inner">
         <div class="expand">
             <div class="third">
-                <h2>We ship some pretty good coffee</h2>
+                <h2>We ship amazing coffee</h2>
                 <h3>Say hi to our February coffee, Venga Le Digo!</h3>
                 <p>With tasting notes of chocolate, toffee, lemon, cherry, and peanut, this beauty from the Cauca region is as sweet and complex as it's all women producers.</p>
                 <a href="/gift-subscription" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
