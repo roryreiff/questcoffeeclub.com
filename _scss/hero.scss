@@ -158,6 +158,7 @@
             margin-top: 40px;
         }
     }
+    .hero-sub { height: 400px; }
     .center {
         display: block; 
         
@@ -167,6 +168,15 @@
             display: block;
             margin: 0 auto 20px auto;
             text-align: center;
+        }
+    }
+    #hero-reviews {
+        .center {
+            text-align: center;
+            .stars, p, .details-i { display: inline-block; margin: 0 6px 0 0; padding: 0; }
+            p { height: 24px; line-height: 24px; margin-bottom: 20px; }
+            .stars { margin-bottom: -3px; }
+            .details-i { margin-bottom: -7px;}
         }
     }
 }
