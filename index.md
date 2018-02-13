@@ -8,15 +8,15 @@ layout: default
     <div class="inner">
         <h2>How does this work?</h2>
         <div class="expand">
-            <div class="box third">
+            <div class="box third how-it-works">
                 <img src="/assets/images/qcc-landing-hdtw-1@2x.png" title="" />
                 <p>Each month, we find the perfect artisan beans from Colombia's most unique family farms.</p>
             </div>
-            <div class="box third">
+            <div class="box third how-it-works">
                 <img src="/assets/images/qcc-landing-hdtw-2@2x.png" title="" />
                 <p>Your coffee is small-batch roasted in Indianapolis, IN just before shipping.</p>
             </div>
-            <div class="box third">
+            <div class="box third how-it-works">
                 <img src="/assets/images/qcc-landing-hdtw-3@2x.png" title="" />
                 <p>Your coffee arrives at your door just a few days after it's roasted.</p>
             </div>

@@ -94,20 +94,24 @@
 @media screen and (max-width: 640px) { 
     .box {
         margin-bottom: 30px;
+        p {
+            margin: 10px 20px 0 30px;
+        }
     }
+    .how-it-works img { margin: 0 0 0 -10px; }
     .box-review {
         p { padding: 0; }
         .rating { 
             margin: 0;
             p { 
-                margin: 8px 0 5px 40px; 
+                margin: 8px 0 5px 30px; 
                 text-align: left;
                 float: none;
             }
             .stars {
                 margin: 5px 0 0 0;
                 float: none;
-                margin-left: 40px;
+                margin-left: 30px;
                 display: block;
             }
             display: block; 
