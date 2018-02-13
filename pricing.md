@@ -13,16 +13,16 @@ permalink: /pricing/
         <div class="expand">
             <div class="third">
                 <h3>Want to purchase this as a gift?</h3>
-                <p>Wow them each month with expertly crafted, single origin Colombian coffee. Guarnateed to impress even the most discerning coffee snob.</p>
+                <p>Wow them each month with expertly crafted, single origin Colombian coffee. Guaranteed to impress even the most discerning coffee snob.</p>
                 <a href="/gift-subscriptions" class="button button-secondary-white button-with-arrow button-medium button-left">Shop Gift Subscriptions<span class="button-arrow"></span></a>
             </div>
-            <div class="two-thirds">
+            <div class="two-thirds image-right">
                 <img src="/assets/images/temp-image-two-thirds@2x.png" />
             </div>
         </div>
         <div class="spacer-120"></div>
         <div class="expand">
-            <div class="two-thirds">
+            <div class="two-thirds image-left">
                 <img src="/assets/images/temp-image-two-thirds@2x.png" />
             </div>
             <div class="third">
@@ -33,3 +33,5 @@ permalink: /pricing/
         </div>
     </div>
 </div>
+<div class="spacer-120"></div>
+{% include cta.html %}

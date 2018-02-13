@@ -1,4 +1,4 @@
-#cta {
+#cta, #cta-gift-subscriptions {
     
     padding: 50px 0;
     
@@ -11,8 +11,8 @@
     
     h3 {
         color: #fff;
-        font-size: 38px;
-        line-height: 42px;
+        font-size: 46px;
+        line-height: 59px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
@@ -20,18 +20,71 @@
     p {
         color: rgba(255,255,255,.35);
     }
+    
+    #gift-subscription-dropdown {
+        margin: 0;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 500;
+        display: inline-block;
+        float: left; 
+        cursor: pointer;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+        letter-spacing: 1.6px;
+        font-size: 14px;
+        padding: 0 50px 0 30px;
+        border: 1px solid #fff;
+        background: transparent;
+        background-image: url(/assets/images/cta-dropdown-arrow@2x.png);
+        background-size: 11px 16px;
+        background-position: 88% 50%;
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        text-align: center;
+        color: #fff !important;
+        margin: 0 15px 15px 0;
+        .button-arrow {
+            position: relative;
+            background-image: url(/assets/images/button-arrow-grey@2x.png);
+            width: 4px;
+            height: 44;
+            right: -10px;
+            background-size: 4px 8px;
+            background-position: 0 50%;
+            background-repeat: no-repeat;
+        }
+    }
+    #gift-subscription-dropdown:focus {
+        outline: none;
+    }
+    .button {
+        margin: 0 0 30px 0;
+        display: inline-block;
+        float: left;
+    }
 }
 
+
 @media screen and (max-width: 640px) { 
-    #cta {
+    #cta, #cta-gift-subscriptions {
         padding: 40px 0;
         .half img {
         }
         h3 {
             font-size: 30px;
             line-height: 38px;
-            padding-top: 20px;
+            padding-top: 0;
+            margin-top: 0;
         }
         .button { margin-bottom: 10px; }
+    }
+    #cta-gift-subscriptions {
+        .button {
+            margin-bottom: 40px;
+        }
     }
 }

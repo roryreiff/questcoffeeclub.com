@@ -21,7 +21,7 @@ permalink: /gift-subscriptions/
                 </ul>
                 <span class="highlight-bubble">Includes Free Shipping</span>
             </div>
-            <div class="two-thirds">
+            <div class="two-thirds image-right">
                 <img src="/assets/images/temp-image-two-thirds@2x.png" />
             </div>
         </div>
@@ -35,4 +35,4 @@ permalink: /gift-subscriptions/
     </div> 
 </div> 
 <div class="spacer-60"></div>
-{% include cta.html %}
+{% include cta-gift-subscriptions.html %}

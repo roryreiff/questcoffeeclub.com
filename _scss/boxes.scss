@@ -65,14 +65,15 @@
     h3 {
         padding-top: 25px;
         font-size: 28px;
+        line-height: 34px;
         text-align: center;
-        margin-bottom: 10px;
+        margin: 15px 15px 10px 15px;
         padding-bottom: 0;
     }
     p {
         font-size: 26px;
         line-height: 34px;
-        margin: 0 40px 35px 40px;
+        margin: 0 40px 20px 40px;
         padding: 0;
         color: #B4B4B4;
         text-align: center;
@@ -82,7 +83,9 @@
         margin-bottom: 50px;
     }
     p.price {
-        color: #774D9B;   
+        color: #774D9B; 
+        padding: 0;
+        margin: 0 0 30px 0;
     }
 }
 
@@ -94,6 +97,7 @@
 @media screen and (max-width: 640px) { 
     .box {
         margin-bottom: 30px;
+        padding-bottom: 10px;
         p {
             margin: 10px 20px 0 30px;
             padding-bottom: 25px;
@@ -119,5 +123,9 @@
             }
             display: block; 
         }
+    }
+    #gift-subscription-boxes .box {
+        .center { display: block; }
+        .button {padding: 0; margin: 0 auto 20px auto; }
     }
 }

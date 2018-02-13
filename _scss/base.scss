@@ -49,11 +49,16 @@ li {
 /* layout */
 .half {
     width: 48%;
-    
     img {
         width: 100%;
         height: auto;
     }
+}
+.half-text-left * {
+    margin-right: 150px;
+}
+.half-text-right * {
+    margin-right: 150px;
 }
 .half-with-gutter {
     width: 48%;
@@ -83,6 +88,9 @@ li {
 .center {
     display: flex;
     justify-content: center; 
+}
+.left {
+    display: block;
 }
 
 .expand {
@@ -174,8 +182,32 @@ ul.checklist {
     .inner {
         width: 90%;
     }
+    .half {
+        width: 45%;
+    }
+    .third {
+        width: 31%;
+    }
+    .two-thirds {
+        width: 60%;
+    }
+    .half-text-left * {
+        margin-right: 0;
+    }
+    .half-text-right * {
+        margin-right: 0;
+    }
 }
 
+@media screen and (max-width: 1000px) and (min-width: 641px) {
+    .inner {
+        width: 80%;
+    }
+    .center, .expand { 
+        flex-wrap: wrap;}
+    .half { width: 100%; }
+    .third { width: 48%; flex-shrink: none; flex-shrink: 0; margin-bottom: 30px;}
+}
 @media screen and (max-width: 640px) { 
     .inner {
         width: 80%;
@@ -192,8 +224,11 @@ ul.checklist {
         font-size: 30px; 
         line-height: 38px;
     }
-    .two-thirds.image {
-        margin: 50px 0 0 0; 
+    .two-thirds.image-right, .half.image-right {
+        margin: 50px 0 0 0;
+    }
+    .two-thirds.image-left, .half.image-left {
+        margin: 0 0 50px 0; 
     }
     p, a, li {
         font-size: 24px;

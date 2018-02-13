@@ -49,9 +49,10 @@
         height: 36px;
         line-height: 36px;
         -webkit-appearance: none;
-         -moz-appearance: none;
-          appearance: none;
-          color: white;
+        -moz-appearance: none;
+        appearance: none;
+        cursor: pointer;
+        color: white;
         font-size: 20px;
         font-weight: 600;
         padding: 0 35px 0 20px;
@@ -59,10 +60,13 @@
         color: #fff;
         border: none;
         border-radius: 36px;
-        background-image: url(/assets/images/dropdown-arrow-white@2x.png);
-        background-size: 11px 7px;
+        background-image: url(/assets/images/select-white@2x.png);
+        background-size: 11px 16px;
         background-repeat: no-repeat;
         background-position: 72% 50%;
+    }
+    select:focus {
+        outline: none;
     }
     .box {
         width: 450px;
@@ -76,7 +80,7 @@
         }
     }
     p, ul { margin: 0; padding: 0; }
-    ul { margin: 0 0 30px 0; }
+    ul { margin: 0 0 30px 0; text-align: center; }
     li { color: #292929; }
     .price { 
         padding: 50px 0 0 0;
@@ -152,10 +156,10 @@
         height: 550px;
         h1 { 
             text-align: center;
-            font-size: 30px;
+            font-size: 34px;
             line-height: 38px;
             padding: 0;
-            margin-top: 40px;
+            margin-top: 60px;
         }
     }
     .hero-sub { height: 400px; }
@@ -177,6 +181,20 @@
             p { height: 24px; line-height: 24px; margin-bottom: 20px; }
             .stars { margin-bottom: -3px; }
             .details-i { margin-bottom: -7px;}
+        }
+    }
+    #hero-pricing {
+        height: 630px; 
+        text-align: center;
+        .box { 
+            margin-top: 100px;
+            width: 100%; 
+        }
+        .button { padding: 0; }
+        p.highlight {
+            .circle {
+                margin: 0 8px
+            }
         }
     }
 }

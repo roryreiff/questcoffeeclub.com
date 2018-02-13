@@ -33,7 +33,7 @@ layout: default
                 <p>With tasting notes of chocolate, toffee, lemon, cherry, and peanut, this beauty from the Cauca region is as sweet and complex as it's all women producers.</p>
                 <a href="/gift-subscription" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
             </div>
-            <div class="two-thirds image">
+            <div class="two-thirds image-right">
                 <img src="/assets/images/temp-image-two-thirds@2x.png" />
             </div>
         </div>
