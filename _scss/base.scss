@@ -183,10 +183,17 @@ ul.checklist {
      .center, .expand {
         display: block;
     }
-    .half, .third, .two-thirds, .half-with-gutter { width: 100% !important; }
+    .half, .third, .two-thirds, .half-with-gutter { width: 100%; }
+    .inner-full-width {
+        width: 100%;
+        .third { width: 80%; margin: 0 auto; }
+    }
     h3 { 
         font-size: 30px; 
         line-height: 38px;
+    }
+    .two-thirds.image {
+        margin: 50px 0 0 0; 
     }
     p, a, li {
         font-size: 24px;
@@ -194,5 +201,6 @@ ul.checklist {
     }
     .spacer-40 { height: 20px; }
     .spacer-60, .spacer { height: 30px; }
+    .spacer-50-mobile { height: 50px; }
     .spacer-120 { height: 60px; }
 }

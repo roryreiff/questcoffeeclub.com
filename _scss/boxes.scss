@@ -96,17 +96,20 @@
         margin-bottom: 30px;
         p {
             margin: 10px 20px 0 30px;
+            padding-bottom: 25px;
         }
     }
-    .how-it-works img { margin: 0 0 0 -10px; }
+    .how-it-works img { margin: 0 0 0 0; width: 155px; height: 141px; }
     .box-review {
         p { padding: 0; }
+        .person { padding-top: 10px; }
         .rating { 
             margin: 0;
             p { 
                 margin: 8px 0 5px 30px; 
                 text-align: left;
                 float: none;
+                padding-bottom: 15px;
             }
             .stars {
                 margin: 5px 0 0 0;

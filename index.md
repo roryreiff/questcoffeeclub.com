@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include hero-landing.html %}
-<div class="spacer-60"></div>
+<div class="spacer-60 spacer-50-mobile"></div>
 <div class="outer">
     <div class="inner">
         <h2>How does this work?</h2>
@@ -25,7 +25,7 @@ layout: default
 </div>
 <div class="spacer-120"></div>
 <div class="outer">
-    <div class="inner">
+    <div class="inner inner-full-width">
         <div class="expand">
             <div class="third">
                 <h2>We ship amazing coffee</h2>
@@ -33,8 +33,8 @@ layout: default
                 <p>With tasting notes of chocolate, toffee, lemon, cherry, and peanut, this beauty from the Cauca region is as sweet and complex as it's all women producers.</p>
                 <a href="/gift-subscription" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
             </div>
-            <div class="two-thirds">
-                <img src="/assets/images/coffee-features/venga-le-digo-coffee@2x.jpg" title="Venga Le Digo!, our February coffee." />
+            <div class="two-thirds image">
+                <img src="/assets/images/temp-image-two-thirds@2x.png" />
             </div>
         </div>
     </div>
