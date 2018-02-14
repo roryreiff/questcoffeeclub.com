@@ -204,7 +204,8 @@ ul.checklist {
         width: 80%;
     }
     .center, .expand { 
-        flex-wrap: wrap;}
+        flex-wrap: wrap;
+    }
     .half { width: 100%; }
     .third { width: 48%; flex-shrink: none; flex-shrink: 0; margin-bottom: 30px;}
 }
@@ -238,4 +239,5 @@ ul.checklist {
     .spacer-60, .spacer { height: 30px; }
     .spacer-50-mobile { height: 50px; }
     .spacer-120 { height: 60px; }
+    .spacer-40.reviews-wall { height: 0; } 
 }

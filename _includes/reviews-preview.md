@@ -19,6 +19,6 @@
     </div>
 {% endfor %}
 </div>
-<div class="spacer-40"></div>
+<div class="spacer-40 reviews-wall"></div>
 <a href="/reviews" class="button button-secondary-white button-with-arrow button-medium button-right">See all reviews<span class="button-arrow"></span></a>
 <div class="clear"></div>
