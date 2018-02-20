@@ -3,7 +3,6 @@ deploy:
   ignore: []
   directory: _site
 plugins:
-  - name: webpage
   - name: form-submit
     path: /contact
     method: post
@@ -11,7 +10,9 @@ plugins:
       formName: contact
       recaptchaSecret: 6LehfUcUAAAAAP-eFRIkWPGjAANOd_omkJLmnVo2
       targets:
-         - name: Quest Coffee Club
+         - name: email
            subject: Contact via website form
            recipients:
              - hello+contactform@questcoffeeclub.com
+  - name: webpage
+ 
