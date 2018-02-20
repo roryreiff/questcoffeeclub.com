@@ -2,6 +2,8 @@
 layout: default
 title: Our Coffee
 permalink: /our-coffee/
+description: See all the coffees we have shipped to subscribers of Quest Coffee Club.
+keywords: coffee, single origin, small-batch roasted, subscription, beans, whole-bean, Colombia, Colombian
 ---
 
 {% include hero-our-coffee.html %}

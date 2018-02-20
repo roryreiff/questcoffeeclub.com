@@ -2,6 +2,8 @@
 layout: default
 title: Gift Subscriptions
 permalink: /gift-subscriptions/
+description: Wow them with amazing coffee. Single origin, small-batch roasted, Colombia coffee available in 3, 6 or 12 month plans.
+keywords: coffee, single origin, Colombia, Colombian, small-batch roasted, gift, gift subscriptions, presents
 ---
 
 {% include hero-gift-subscriptions.html %}
@@ -12,7 +14,7 @@ permalink: /gift-subscriptions/
     <div class="inner">
         <div class="expand">
             <div class="third">
-                <h2>What will they get?</h2>
+                <h2>What will they get each month?</h2>
                 <ul class="checklist">
                     <li>Whole-bean coffee (12oz)</li>
                     <li>Tasting notes</li>

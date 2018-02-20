@@ -2,7 +2,8 @@
 layout: default
 title: Reviews
 permalink: /reviews/
-description: 
+description: See what people are saying about Quest Coffee Club and their experiences with our single origin, small-batch roasted, Colombian coffees.
+keywords: reviews, what people are saying, coffee, single origin, small-batch roasted, beans, whole-beans, fresh, fast, great, amazing
 ---
 
 {% include hero-reviews.html %}

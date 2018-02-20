@@ -38,6 +38,25 @@ $("#hero-reviews #reviews-total").hover(
 //});
 //
 
+// Pricing dropdown
+$("#price-quantity-select").change(function () {
+    var value = this.value;
+    var price = $("#monthly-price");
+    console.log(value);
+    if (value == "1") {
+        $("#monthly-price").html("$20");
+    }
+    if (value == "2") {
+        $("#monthly-price").html("$30");
+    }
+    if (value == "3") {
+        $("#monthly-price").html("$45");
+    }
+    if (value == "4") {
+        $("#monthly-price").html("$60");
+    }
+});
+
 //
 // Forms
 function onSubmitForm(event) {

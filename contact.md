@@ -2,7 +2,7 @@
 layout: default
 title: Contact Us
 permalink: /contact/
-description: 
+description: Contact us at Quest Coffee club with any questions, comments or feedback.
 ---
 
 {% include hero-contact.html %}

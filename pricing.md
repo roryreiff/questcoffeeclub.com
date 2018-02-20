@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Pricing
-description: description here
-keywords: keywords here
+description: Pricing and purchase options for a subscription to Quest Coffee Club, the best way to receive single origin, small-batch roasted, Colombia coffee at home.
+keywords: coffee, single origin, small-batch roasted, whole-bean, beans, artisanal, fresh, Colombia, Colombian
 permalink: /pricing/
 ---
 
