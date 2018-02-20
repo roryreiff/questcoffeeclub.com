@@ -14,11 +14,29 @@ $("#menu-button-close").click(function() {
 
 $("#hero-reviews #reviews-total").hover(
   function() {
-    $(this).find(".reviews-explanation").addClass("visible");
+    $(".reviews-explanation").addClass("visible");
   }, function() {
-    $( this ).find(".reviews-explanation").removeClass("visible");
+    $(".reviews-explanation").removeClass("visible");
   }
 );
+
+// Scrolling Header
+//$(window).on('scroll',function(){
+//    var breakPoint = 800;
+//    if ($(window).scrollTop() >= breakPoint) {
+//        // console.log('Past break point');
+//        //$('header.clone.remove-header').removeClass('remove-header');
+//        console.log("show");
+//        $('header').addClass('reveal-header');
+//    }
+//    else if ($(window).scrollTop() < breakPoint) {
+//        // console.log('Below break point');
+//        // $('header.clone.reveal-header').addClass('remove-header');
+//        console.log("hide");
+//        $('header').removeClass('reveal-header');
+//    }
+//});
+//
 
 //
 // Forms

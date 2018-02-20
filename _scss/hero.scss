@@ -163,19 +163,34 @@
     
     .details-i {
         width: 18px;
-        height: 28px;
+        height: 18px;
         background-size: 18px 18px;
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-image: url(/assets/images/hero/hero-details-i@2x.png); 
+        margin-left: 8px;
     }
-    #reviews-total { cursor: pointer; }
+    #reviews-total { 
+        margin: 0 auto;
+        position: relative;
+        cursor: pointer; 
+        height: 18px;
+        line-height: 18px;
+        p { 
+            margin: 0;
+            padding: 0; 
+            line-height: 18px; 
+        }
+    }
     .reviews-explanation {
+        z-index: 10000;
+        box-shadow: 0 0 20px rgba(0,0,0,.08);
         display: none;
         position: absolute;
+        left: 50%;
         box-sizing: border-box;
-        margin-top: 40px;
         width: 350px;
+        margin: 20px 0 0 -175px;
         background: #fff;
         border-radius: 4px;
         text-align: center;
@@ -216,6 +231,9 @@
             padding: 0;
             margin-top: 60px;
         }
+        p {
+            padding: 0 30px;
+        }
     }
     .hero-sub { height: 400px; }
     .center {
@@ -232,10 +250,14 @@
     #hero-reviews {
         .center {
             text-align: center;
-            .stars, p, .details-i { display: inline-block; margin: 0 6px 0 0; padding: 0; }
-            p { height: 24px; line-height: 24px; margin-bottom: 20px; }
-            .stars { margin-bottom: -3px; }
-            .details-i { margin-bottom: -7px;}
+            .stars, p, .details-i { display: inline-block; margin: 0; padding: 0;}
+            p { margin-bottom: 20px; }
+            .details-i { margin: 0 0 -2px 8px; }
+        }
+        #reviews-total {
+            height: 20px;
+            padding: 0;
+            margin: 0;
         }
     }
     #hero-pricing {

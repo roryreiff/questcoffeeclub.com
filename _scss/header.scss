@@ -1,12 +1,12 @@
 header {
     position: absolute;
-    padding: 34px 0;
-    
+    height: 80px;
+    line-height: 80px; 
     #logo {
         float: left;
         width: 102px;
         height: 35px;
-        margin-top: -8px;
+        margin-top: 22px;
         background: url(/assets/images/QCC-logo@2x.png);
         background-size: 102px 35px;
     }
@@ -23,11 +23,10 @@ header {
         font-size: 12px;
         letter-spacing: 1.6px;
         text-transform: uppercase;
-        margin-top: -7px;
+        margin-top: 22px;
         color: #fff;
     }
 }
-
 
 nav {    
     float: right;
@@ -44,7 +43,7 @@ nav {
         padding: 0 4px;
         margin: 0 0 0 25px;
         font-size: 12px;
-        
+        font-weight: 500;
     }
     
     a:hover {
@@ -82,7 +81,6 @@ header.mobile {
         top: 0;
         left: 0;
         margin: 0 auto;
-
         a { 
             font-size: 20px;
             height: 60px;
@@ -96,6 +94,33 @@ header.mobile {
         }
     }
 }
+
+/* header animation when scrolling */
+header.reveal-header {
+    box-shadow: 0 0 30px rgba(0,0,0,.15);
+    padding: 0;
+    height: 80px;
+    position: fixed;
+    z-index: 10000;
+    background: white;
+    top: 0;
+    #logo {
+        background-image: url(/assets/images/QCC-logo-dark@2x.png);
+    }
+    nav {
+        a {
+            color: #292929;
+        }
+        span.new { 
+            color: #fff;
+        }
+    }
+}
+header.remove-header {
+  display: none;
+  top: -200px;
+  }
+
 
 @media screen and (max-width: 1240px) { 
     header {
