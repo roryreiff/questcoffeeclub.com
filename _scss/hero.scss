@@ -81,7 +81,15 @@
     }
     p, ul { margin: 0; padding: 0; }
     ul { margin: 0 0 30px 0; text-align: center; }
-    li { color: #292929; }
+    li { 
+        color: #292929; 
+        .plural { 
+            display: none; 
+        }
+        .plural.visible { 
+            display: inline; 
+        }
+    }
     .price { 
         padding: 50px 0 0 0;
         margin-bottom: 40px;

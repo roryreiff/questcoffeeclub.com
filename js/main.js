@@ -42,18 +42,23 @@ $("#hero-reviews #reviews-total").hover(
 $("#price-quantity-select").change(function () {
     var value = this.value;
     var price = $("#monthly-price");
+    var plural = $("#hero-pricing .plural")
     console.log(value);
     if (value == "1") {
-        $("#monthly-price").html("$20");
+        price.html("$20");
+        plural.removeClass("visible");
     }
     if (value == "2") {
-        $("#monthly-price").html("$30");
+        price.html("$30");
+        plural.addClass("visible");
     }
     if (value == "3") {
-        $("#monthly-price").html("$45");
+        price.html("$45");
+        plural.addClass("visible");
     }
     if (value == "4") {
-        $("#monthly-price").html("$60");
+        price.html("$60");
+        plural.addClass("visible");
     }
 });
 
