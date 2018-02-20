@@ -97,6 +97,11 @@ li {
     display: flex;
     justify-content: space-between; 
 }
+.expand-third {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
 
 .clear {
     width: 100%;

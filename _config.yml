@@ -51,6 +51,9 @@ sass:
 
 
 collections: 
-- customer_reviews
+    customer_reviews:
+    our-coffee:
+        output: true
+        permalink: /:collection/:name
     
 collections_dir: my_collections

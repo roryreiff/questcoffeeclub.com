@@ -25,13 +25,13 @@ layout: default
 </div>
 <div class="spacer-120"></div>
 <div class="outer">
-    <div class="inner inner-full-width">
+    <div class="inner">
+        <h2>We ship amazing coffee</h2>
         <div class="expand">
             <div class="third">
-                <h2>We ship amazing coffee</h2>
                 <h3>Say hi to our February coffee, Venga Le Digo!</h3>
                 <p>With tasting notes of chocolate, toffee, lemon, cherry, and peanut, this beauty from the Cauca region is as sweet and complex as it's all women producers.</p>
-                <a href="/gift-subscription" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
+                <a href="/our-coffee/" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
             </div>
             <div class="two-thirds image-right">
                 <img src="/assets/images/temp-image-two-thirds@2x.png" />

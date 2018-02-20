@@ -108,6 +108,27 @@
     
 }
 
+#hero-how-it-works {
+    background: grey;
+    background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#hero-about {
+    background: grey;
+    background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#hero-our-coffee {
+    background: grey;
+    background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 #hero-gift-subscriptions {
     background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
@@ -141,6 +162,33 @@
         background-repeat: no-repeat;
         background-image: url(/assets/images/hero/hero-details-i@2x.png); 
     }
+    #reviews-total { cursor: pointer; }
+    .reviews-explanation {
+        display: none;
+        position: absolute;
+        box-sizing: border-box;
+        margin-top: 40px;
+        width: 350px;
+        background: #fff;
+        border-radius: 4px;
+        text-align: center;
+        padding: 20px;
+        line-height: 20px;
+            
+        .tail {
+            background: #fff;
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            margin-left: -8px;
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+            transform: rotate(45deg);
+        }
+            
+    }
+    .reviews-explanation.visible { display: block; }
 }
 
 @media screen and (max-width: 1240px) { 

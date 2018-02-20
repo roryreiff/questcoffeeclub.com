@@ -1,7 +1,9 @@
 ---
 layout: default
 title: About
+description: description here
+keywords: keywords here
 permalink: /about/
 ---
 
-<h1>About</h1>
+{% include hero-about.html %}

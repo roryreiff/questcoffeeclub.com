@@ -11,3 +11,11 @@ $("#menu-button").click(function() {
 $("#menu-button-close").click(function() {
    $("header").removeClass("mobile"); 
 });
+
+$("#hero-reviews #reviews-total").hover(
+  function() {
+    $(this).find(".reviews-explanation").addClass("visible");
+  }, function() {
+    $( this ).find(".reviews-explanation").removeClass("visible");
+  }
+);
