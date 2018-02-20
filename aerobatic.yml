@@ -4,3 +4,14 @@ deploy:
   directory: _site
 plugins:
   - name: webpage
+  - name: form-submit
+    path: /contact
+    method: post
+    options:
+      formName: contact
+      recaptchaSecret: 6LehfUcUAAAAAP-eFRIkWPGjAANOd_omkJLmnVo2
+      targets:
+         - name: Quest Coffee Club
+           subject: Contact via website form
+           recipients:
+             - hello+contactform@questcoffeeclub.com
