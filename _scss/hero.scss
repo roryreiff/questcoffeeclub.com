@@ -5,6 +5,7 @@
     justify-content: center;
     background-size: cover;
     background-position: 50% 50%;
+    background-color: #292929;
     h1 {
         padding: 0 225px;
         margin-bottom: 40px;
@@ -54,12 +55,10 @@
 
 /* images */
 #hero-landing {
-    background: grey;
     background-image: url(/assets/images/hero/hero-landing@2x.jpg);
 }
 
 #hero-pricing {
-    background: grey;
     background-image: url(/assets/images/hero/hero-landing@2x.jpg);
     
     select {
@@ -134,32 +133,26 @@
 }
 
 #hero-how-it-works {
-    background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
 #hero-about {
-    background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
 #hero-contact {
-    background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
 #hero-our-coffee {
-    background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
 #hero-gift-subscriptions {
-    background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
 #hero-reviews {
-    background: grey;
     background-image: url(/assets/images/hero/hero-reviews@2x.jpg);
     
     .stars {
