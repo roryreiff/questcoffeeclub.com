@@ -52,7 +52,7 @@ sass:
 
 collections: 
     customer_reviews:
-    our-coffee:
+    our-coffees:
         output: true
         permalink: /:collection/:name
     

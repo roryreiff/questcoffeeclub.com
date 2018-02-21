@@ -8,7 +8,7 @@ keywords: coffee, single origin, small-batch roasted, subscription, beans, whole
 
 {% include hero-our-coffee.html %}
 <div class="spacer-60"></div>
-{% assign coffees = site.our-coffee | sort: 'roast_date' | reverse  %}
+{% assign coffees = site.our-coffees | sort: 'roast_date' | reverse  %}
 <div id="our-coffees">
     <div class="outer">
         <div class="inner expand">
