@@ -6,10 +6,14 @@ country: Colombia
 region: El Tambo, Cauca
 altitude: 5,740 Feet
 tasting_notes: Chocolate, toffee, lemon, cherry, peanut
+month: February 2018
 roast_date: 2018-02-13 12:00:00 -0000
 background_image: /assets/images/coffee-pages/coffee_background_venga_le_digo@2x.jpg
 image_coffee: /assets/images/coffee-pages/coffee_image_venga_le_digo@2x.jpg
+image_thumbnail: /assets/images/coffee-pages/coffee_thumbnail_venga_le_digo@2x.jpg
+teaser: With tasting notes of chocolate, toffee, lemon, cherry and peanuts, Venga Le Digo! is sweet and complex, just like it's all women farmers.
 ---
+
 <h5>Venga Le What?!?</h5>
 <p>“Venga Le Digo!” (roughly translated as “Come here I’ll tell you”) is a commonly heard phrase in Colombia. It’s used as a means to get someone’s attention, and as such is a perfect name for this month’s coffee.</p>
 

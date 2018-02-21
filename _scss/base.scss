@@ -96,6 +96,7 @@ li {
 .expand {
     display: flex;
     justify-content: space-between; 
+    flex-wrap: wrap;
 }
 .compress-left {
     display: flex;

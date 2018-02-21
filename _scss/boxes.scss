@@ -89,6 +89,37 @@
     }
 }
 
+
+.box-coffee-landing {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    h2 { 
+        margin: 30px 0 30px 30px; 
+    }
+    h3, p { 
+        font-size: 20px; 
+        line-height: 26px;
+        margin: 0 30px 5px 30px; 
+        padding: 0;
+    }
+    
+    h3 { 
+    }
+    p {
+        color: #B5B5B5;
+    }
+    .content { width: 320px; }
+    .image {
+        padding: 0;
+        width: 220px;
+        height: 220px;
+        margin: 30px 30px 0 0;
+        img {
+            width: 220px;
+            height: 220px;
+        }
+    }
+}
 /* responsive */
 @media screen and (max-width: 1240px) { 
     
