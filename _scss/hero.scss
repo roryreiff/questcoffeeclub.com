@@ -1,8 +1,10 @@
-.hero, .hero-sub {
+.hero, .hero-sub, .hero-coffee-page {
     height: 850px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-position: 50% 50%;
     h1 {
         padding: 0 225px;
         margin-bottom: 40px;
@@ -31,19 +33,34 @@
     }
 }
 
+.hero-coffee-page {
+    .coffee-md {
+        margin-right: 100px;
+    }
+    height: 500px;
+    h1 { 
+        text-align: left; 
+        margin: 60px 0 60px 0;
+        padding: 0;
+    }
+    h1, h2, p {
+        color: #fff;
+    }
+    h2 {
+        border-color: #fff;
+        margin: 0 0 10px 0;
+    }
+}
+
 /* images */
 #hero-landing {
     background: grey;
     background-image: url(/assets/images/hero/hero-landing@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 #hero-pricing {
     background: grey;
     background-image: url(/assets/images/hero/hero-landing@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
     
     select {
         height: 36px;
@@ -119,43 +136,31 @@
 #hero-how-it-works {
     background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 #hero-about {
     background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 #hero-contact {
     background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 #hero-our-coffee {
     background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 #hero-gift-subscriptions {
     background: grey;
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 #hero-reviews {
     background: grey;
     background-image: url(/assets/images/hero/hero-reviews@2x.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
     
     .stars {
         width: 144px;
@@ -244,6 +249,16 @@
         }
     }
     .hero-sub { height: 400px; }
+    .hero-coffee-page {
+        height: auto;
+        .coffee-md {
+            display: block;
+        }
+        h1 {
+            margin: 100px 0 30px 0;
+            font-size: 34px;
+        }
+    }
     .center {
         display: block; 
         

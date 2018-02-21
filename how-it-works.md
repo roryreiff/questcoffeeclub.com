@@ -6,3 +6,4 @@ description: Details on how a subscription to Quest Coffee Club works, including
 keywords: subscription, coffee, single origin, small-batch roasted, selection, process, shipping
 ---
 {% include hero-how-it-works.html %}
+

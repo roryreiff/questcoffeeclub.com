@@ -97,6 +97,10 @@ li {
     display: flex;
     justify-content: space-between; 
 }
+.compress-left {
+    display: flex;
+    justify-content: flext-start; 
+}
 .expand-third {
     display: flex;
     justify-content: space-between; 
@@ -152,6 +156,7 @@ input {
     float: left;
     color: rgba(41,41,41,1);
     box-sizing: border-box;
+    -webkit-appearance: none;
 }
 input[type="text"], input[type="email"] { width: 100%; }
 input[type="submit"] { width: auto; }
@@ -216,12 +221,28 @@ ul.checklist {
     }
     .half { width: 100%; }
     .third { width: 48%; flex-shrink: none; flex-shrink: 0; margin-bottom: 30px;}
+    
+    .coffee-page-expand {
+        
+        display: table;
+            
+        .coffee-page-image {
+            display: table-header-group;
+        }    
+        .coffee-page-content {
+            display: table-footer-group;
+            h5 {
+            padding-top: 60px;
+            }
+        } 
+        
+    }
 }
 @media screen and (max-width: 640px) { 
     .inner {
         width: 80%;
     }
-     .center, .expand {
+     .center, .expand, .compress-left {
         display: block;
     }
     .half, .third, .two-thirds, .half-with-gutter { width: 100%; }
@@ -248,4 +269,21 @@ ul.checklist {
     .spacer-50-mobile { height: 50px; }
     .spacer-120 { height: 60px; }
     .spacer-40.reviews-wall { height: 0; } 
+    
+    .coffee-page-expand {
+        
+        display: table;
+            
+        .coffee-page-image {
+            display: table-header-group;
+        }    
+        .coffee-page-content {
+            display: table-footer-group;
+            display: table-footer-group;
+            h5 {
+            padding-top: 60px;
+            }
+        } 
+    } 
+        
 }

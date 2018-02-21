@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html ⚡ lang="en">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <h1>{{page.name}}</h1>
-    {{ content }}
-    {% include footer.html %}
-    {% include analytics.html %}
-    {% include js.html %}  
-  </body>
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+        <div id="hero-coffee-page" class="outer hero-coffee-page" style="background-image: url({{page.background_image}})">
+            <div class="inner">
+                <h1>{{page.name}}</h1>
+                <div class="compress-left">
+                    <div class="coffee-md">
+                        <h2>Region</h2>
+                        <p>{{page.region}}</p>
+                    </div>
+                    <div class="coffee-md">
+                        <h2>Altitude</h2>
+                        <p>{{page.altitude}}</p>
+                    </div>
+                    <div class="coffee-md">
+                        <h2>Region</h2>
+                        <p>{{page.tasting_notes}}</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="spacer-60"></div>
+        <div class="outer">
+            <div class="inner">
+                <div class="expand coffee-page-expand">
+                    <div class="half coffee-page-content">
+                        {{content}}
+                    </div>
+                    <div class="half coffee-page-image">
+                        <img src="{{page.image_coffee}}" title="{{page.name}}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer-60"></div>
+        {% include cta.html %}
+        {% include footer.html %}
+        {% include analytics.html %}
+        {% include js.html %}  
+    </body>
 </html>
