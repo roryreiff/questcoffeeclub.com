@@ -1,8 +1,6 @@
 .hero, .hero-sub, .hero-coffee-page {
+    position: relative;
     height: 850px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-size: cover;
     background-position: 50% 50%;
     background-color: #292929;
@@ -10,7 +8,30 @@
         padding: 0 225px;
         margin-bottom: 40px;
     }
+    .hero-center {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 110;
+    }
+    .hero-background, .hero-cover {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 90;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .hero-cover {
+        z-index: 100;
+        background-color: #292929;
+    }
 }
+
 
 .hero-sub {
     height: 600px;
@@ -53,12 +74,14 @@
 }
 
 /* images */
-#hero-landing {
+#hero-landing .hero-background {
     background-image: url(/assets/images/hero/hero-landing@2x.jpg);
 }
 
-#hero-pricing {
+#hero-pricing .hero-background {
     background-image: url(/assets/images/hero/hero-landing@2x.jpg);
+}
+#hero-pricing  {
     
     select {
         height: 36px;
@@ -131,28 +154,30 @@
     
 }
 
-#hero-how-it-works {
+#hero-how-it-works .hero-background {
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
-#hero-about {
+#hero-about .hero-background {
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
-#hero-contact {
+#hero-contact .hero-background {
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
-#hero-our-coffee {
+#hero-our-coffee .hero-background {
     background-image: url(/assets/images/hero/our-coffees@2x.jpg);
 }
 
-#hero-gift-subscriptions {
+#hero-gift-subscriptions .hero-background {
     background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
 }
 
-#hero-reviews {
+#hero-reviews .hero-background {
     background-image: url(/assets/images/hero/hero-reviews@2x.jpg);
+}
+#hero-reviews {
     
     .stars {
         width: 144px;

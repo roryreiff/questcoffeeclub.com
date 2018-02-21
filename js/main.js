@@ -1,3 +1,10 @@
+// heros
+
+$('.hero-background').waitForImages().done(function() {
+    $('.hero-cover').fadeOut(650);
+    console.log("image has downloaded");
+});
+
 $('#reviews-wall').masonry({
     // options
     itemSelector: '.box-review',
