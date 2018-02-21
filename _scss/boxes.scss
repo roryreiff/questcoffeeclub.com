@@ -119,6 +119,9 @@
             height: 220px;
         }
     }
+    .button {
+        margin: 20px 0 0 30px;
+    }
 }
 /* responsive */
 @media screen and (max-width: 1240px) { 
@@ -153,6 +156,22 @@
                 display: block;
             }
             display: block; 
+        }
+    }
+    .box-coffee-landing {
+        .button {
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        .image {
+            margin: 0 auto;
+            width: 250px;
+            height: 250px;
+            padding-bottom: 25px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
     #gift-subscription-boxes .box {

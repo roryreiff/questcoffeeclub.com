@@ -40,7 +40,7 @@
     }
 }
 
-.button-secondary-white{
+.button-secondary-white {
     color: #B3B3B3;
     border: 1px solid #C8C8C8;
     
@@ -96,6 +96,15 @@ input.large-button {
     letter-spacing: 1.6px;
     font-size: 12px;
     padding: 0 30px;
+}
+
+.button-small {
+    height: 36px;
+    line-height: 36px;
+    border-radius: 36px;
+    letter-spacing: 1.3px;
+    font-size: 11px;
+    padding: 0 25px;
 }
 
 /* layout */

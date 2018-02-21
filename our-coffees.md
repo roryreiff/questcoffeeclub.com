@@ -19,6 +19,7 @@ keywords: coffee, single origin, small-batch roasted, subscription, beans, whole
                 <h2>{{coffee.month}}</h2>
                 <h3>{{coffee.name}}</h3>
                 <p>{{coffee.teaser}}</p>
+                <a class="button button-secondary-white button-small" href="{{coffee.url}}" title="read more">Read more<span class="button-arrow"></span></a>
             </div>
             <div class="image">
                 <img src="{{coffee.image_thumbnail}}" title="{{coffee.name}}" />
