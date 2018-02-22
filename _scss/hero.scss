@@ -46,6 +46,10 @@
         line-height: 28px; 
         text-align: center;
     }
+    p.subhead {
+        margin: 0 250px;
+        line-height: 34px;
+    }
     
     p.small { 
         font-size: 20px;
@@ -177,6 +181,10 @@
 #hero-reviews .hero-background {
     background-image: url(/assets/images/hero/hero-reviews@2x.jpg);
 }
+
+#hero-faqs .hero-background {
+    background-image: url(/assets/images/hero/hero-faqs@2x.jpg);
+}
 #hero-reviews {
     
     .stars {
@@ -248,6 +256,9 @@
         h1 {
             padding: 0 20px;
         }
+        p.subhead {
+            margin: 0 50px;
+        }
     }
 }
 
@@ -263,6 +274,10 @@
         }
         p {
             padding: 0 30px;
+        }
+        p.subhead {
+            line-height: 28px;
+            margin: 0;
         }
     }
     .hero-sub { height: 400px; }
