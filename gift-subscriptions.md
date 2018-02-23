@@ -33,7 +33,7 @@ keywords: coffee, single origin, Colombia, Colombian, small-batch roasted, gift,
 <div class="outer">
     <div class="inner">
         <h2>What are people saying about us?</h2>
-        {% include reviews-preview.md %}
+        {% include reviews-preview-no-button.md %}
     </div> 
 </div> 
 <div class="spacer-60"></div>

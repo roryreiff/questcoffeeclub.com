@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Quest Coffee Club home
+title: Single origin Colombia coffee delivered to your home
 permalink: /
 description: Quest Coffee Club sends you single origin, small-batch roasted Colombia coffee delivered directly to your door.
 keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colombian, fresh, whole-bean, beans, coffee beans
@@ -33,7 +33,7 @@ keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colom
 <div class="spacer-120"></div>
 <div class="outer">
     <div class="inner">
-        <h2>We ship some really delicious coffees</h2>
+        <h2>We send you delicious coffee</h2>
         <div class="expand">
             <div class="third">
                 <h3>Say hi to our February coffee, Venga Le Digo!</h3>

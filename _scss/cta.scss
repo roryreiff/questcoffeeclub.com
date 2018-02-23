@@ -1,4 +1,4 @@
-#cta, #cta-gift-subscriptions {
+#cta, #cta-gift-subscriptions, #cta-business-subscriptions {
     
     padding: 50px 0;
     
@@ -47,16 +47,6 @@
         text-align: center;
         color: #fff !important;
         margin: 0 15px 15px 0;
-        .button-arrow {
-            position: relative;
-            background-image: url(/assets/images/button-arrow-grey@2x.png);
-            width: 4px;
-            height: 44;
-            right: -10px;
-            background-size: 4px 8px;
-            background-position: 0 50%;
-            background-repeat: no-repeat;
-        }
     }
     #gift-subscription-dropdown:focus {
         outline: none;
@@ -68,6 +58,12 @@
     }
 }
 
+#cta-business-subscriptions {
+    #gift-subscription-dropdown {
+        padding-right: 50px !important;
+        background-position: 90% 50%;
+    }
+}
 
 @media screen and (max-width: 640px) { 
     #cta, #cta-gift-subscriptions {
