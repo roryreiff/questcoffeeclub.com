@@ -5,7 +5,7 @@
 {% assign current_index = forloop.index0 }}
 {% assign next_index = current_index | plus: 1 %}
 {% assign prev_index = current_index | minus: 1 %}
-    <div class="box box-review half-with-gutter {% cycle 'odd', 'even' %}">
+    <div class="box box-review {% cycle 'odd', 'even' %}">
         <p>"{{review.comment}}"</p>
         <div class="expand">
             <div class="person">
@@ -19,6 +19,5 @@
     </div>
 {% endfor %}
 </div>
-<div class="spacer-40 reviews-wall"></div>
 <a href="/reviews" class="button button-secondary-white button-with-arrow button-medium button-right">See all reviews<span class="button-arrow"></span></a>
 <div class="clear"></div>
