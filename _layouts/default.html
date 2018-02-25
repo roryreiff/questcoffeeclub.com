@@ -9,10 +9,11 @@
     {% include js.html %}  
     {% minibundle js %}
         source_dir: _scripts
-        destination_path: js/site
+        destination_path: /js/site
         baseurl: '{{ site.baseurl }}'
         assets:
             - jquery.waitforimages.min
+            - masonry.pkgd.min
             - main
     {% endminibundle %}
   </body>

@@ -12,8 +12,9 @@ keywords: reviews, what people are saying, coffee, single origin, small-batch ro
 <div class="outer">
     <div class="inner">
         <div id="reviews-wall">
+            <div class="gutter-sizer"></div>
             {% for review in reviews reversed %}
-            <div class="box box-review half-with-gutter {% cycle 'odd', 'even' %}">
+            <div class="box box-review half">
                 <p>"{{review.comment}}"</p>
                 <div class="expand">
                     <div class="person">

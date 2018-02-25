@@ -8,7 +8,8 @@ $('.hero-background').waitForImages().done(function() {
 $('#reviews-wall').masonry({
     // options
     itemSelector: '.box-review',
-    gutter: 48
+    columnWidth: '.box-review',
+    gutter: '.gutter-sizer'
 });
 
 $("#menu-button").click(function() {
