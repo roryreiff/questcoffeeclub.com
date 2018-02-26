@@ -15,7 +15,10 @@
     background: linear-gradient(to right, #6879e4 0%,#7550a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6879e4', endColorstr='#7550a8',GradientType=1 ); /* IE6-9 */
 }
-
+.button-main-white {
+    background: #fff;
+    color: #292929;
+}
 .button-main:hover {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6879e4+0,7550a8+100 */
     background: #6868E0; /* Old browsers */

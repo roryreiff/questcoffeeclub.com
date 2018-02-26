@@ -199,6 +199,37 @@ ul.checklist {
     }
 }
 
+select.quantity-select {
+        height: 36px;
+        line-height: 36px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 35px 0 20px;
+        background: #A68ABD;
+        color: #fff;
+        border: none;
+        border-radius: 36px;
+        background-image: url(/assets/images/select-white@2x.png);
+        background-size: 11px 16px;
+        background-repeat: no-repeat;
+        background-position: 72% 50%;
+    }
+    select:focus {
+        outline: none;
+    }
+
+.plural { 
+    display: none; 
+}
+.plural.visible { 
+    display: inline; 
+}
+
 
 /* responsive */
 @media screen and (max-width: 1240px) { 

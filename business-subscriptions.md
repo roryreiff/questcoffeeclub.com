@@ -8,7 +8,7 @@ keywords: coffee, single origin, Colombia, Colombian, small-batch roasted, works
 
 {% include hero-business-subscriptions.html %}
 <div class="spacer-60"></div>
-{% include business-subscription-boxes.html %}
+{% include business-subscription-boxes-cyo.html %}
 <div class="spacer-120"></div>
 <div class="outer">
     <div class="inner">

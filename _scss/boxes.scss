@@ -14,6 +14,21 @@
         padding-bottom: 40px;
     }
 }
+.box-highlight {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6879e4+0,7550a8+100 */
+    background: #6879e4; /* Old browsers */
+    background: -moz-linear-gradient(left, #6879e4 0%, #7550a8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #6879e4 0%,#7550a8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #6879e4 0%,#7550a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6879e4', endColorstr='#7550a8',GradientType=1 ); /* IE6-9 */
+    p {
+        color: rgba(256,256,256,.65) !important;   
+    }
+    h3, p.price {
+        color: #fff !important;   
+    }
+    
+}
 .how-it-works {
     .number {
         display: inline-block;
@@ -84,7 +99,7 @@
     }
 }
 
-#gift-subscription-boxes .box {
+#gift-subscription-boxes .box, #business-subscription-boxes .box {
     
     h3 {
         padding-top: 25px;
@@ -112,7 +127,9 @@
         margin: 0 0 30px 0;
     }
 }
-
+#business-subscription-boxes .box p {
+    padding: 0 40px;
+}
 
 .box-coffee-landing {
     margin-bottom: 40px;
@@ -179,6 +196,7 @@
         p {
             margin: 10px 20px 0 30px;
             padding-bottom: 30px;
+            font-size: 24px !important;
         }
     }
     .how-it-works {
@@ -230,8 +248,12 @@
             }
         }
     }
-    #gift-subscription-boxes .box {
+    #gift-subscription-boxes .box, #business-subscription-boxes .box {
+        padding: 0 0 20px 0;
         .center { display: block; }
         .button {padding: 0; margin: 0 auto 20px auto; }
     }
+    #business-subscription-boxes .box p {
+    padding: 0;
+}
 }

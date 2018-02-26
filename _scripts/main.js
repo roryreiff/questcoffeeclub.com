@@ -49,23 +49,43 @@ $("#hero-reviews #reviews-total").hover(
 // Pricing dropdown
 $("#price-quantity-select").change(function () {
     var value = this.value;
-    var price = $("#monthly-price");
-    var plural = $("#hero-pricing .plural")
+    var type = "individual";
+    if ($(this).hasClass("business-quantity")) {
+        var type = "business";
+    }
+    var price = $("#select-price");
+    var plural = $(".plural");
     console.log(value);
     if (value == "1") {
-        price.html("$20");
+        if (type == "individual") {
+            price.html("$20");    
+        } else {
+            price.html("$70");
+        }
         plural.removeClass("visible");
     }
     if (value == "2") {
-        price.html("$30");
+        if (type == "individual") {
+            price.html("$30");    
+        } else {
+            price.html("$130");
+        }
         plural.addClass("visible");
     }
     if (value == "3") {
-        price.html("$45");
+        if (type == "individual") {
+            price.html("$45");    
+        } else {
+            price.html("$190");
+        }
         plural.addClass("visible");
     }
     if (value == "4") {
-        price.html("$60");
+        if (type == "individual") {
+            price.html("$60");    
+        } else {
+            price.html("$250");
+        }
         plural.addClass("visible");
     }
 });
