@@ -45,6 +45,13 @@ p, a, li {
 .coffee-page-content p.footnote {
     color: #B3B3B3;
 }
+p.question-title {
+    color: #292929 !important;
+    margin-bottom: 0;
+}
+p a {
+    text-decoration: underline;
+}
 
 li {
     line-height: 28px;

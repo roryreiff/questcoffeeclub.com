@@ -8,26 +8,52 @@ keywords: coffee, Colombia, help, questions, subscription, shipping, support, co
 
 {% include hero-faqs.html %}
 <div class="spacer-60"></div>
-{% assign reviews = site.customer_reviews | sort: 'date'%}
 <div class="outer">
     <div class="inner">
-        <div id="reviews-wall">
-            {% for review in reviews reversed %}
-            <div class="box box-review half-with-gutter {% cycle 'odd', 'even' %}">
-                <p>"{{review.comment}}"</p>
-                <div class="expand">
-                    <div class="person">
-                    <p>{{review.name}}<br>{{review.location}}</p>
-                    </div>
-                    <div class="rating">
-                        <div class="stars stars-{{review.stars}}"></div>
-                        <p>{{ review.date | date: '%B %d, %Y' }}</p>
-                    </div>
-                </div>
+        <h2>Hopefully these answer all your questions...</h2>
+        <div class="expand">
+            <div class="half">
+                <p class="question-title">When do I receive my coffee?</p>
+                <p>We roast and ship each month's coffee on the second Tuesday of each month. Your coffee will normally arrive in the third week of each month (around the 20th).</p>
             </div>
-            {% endfor %}
+            <div class="half">
+                <p class="question-title">When am I charged for my subscription?</p>
+                <p>You are charged when you sign up, and when your plan is set to automatically renew, until you decide to cancel.</p>
+            </div>
+            <div class="half">
+                <p class="question-title">How much coffee do I get each month?</p>
+                <p>Depending on your order size, each bag is 12oz of whole-bean, freshly roasted coffee.</p>
+            </div>
+            <div class="half">
+                <p class="question-title">What kind of coffee will I receive?</p>
+                <p>We always ship whole-bean, freshly roasted coffee. We roast our coffees light to medium to best reveal each coffee's unique and complex taste profile.</p>
+            </div>
+            <div class="half">
+                <p class="question-title">Where is my coffee roasted?</p>
+                <p>We roast each month's coffee in Indianapolis, Indiana on a 12 kilo Probat roaster. We always roast on the second Tuesday of each month and ship directly after.</p>
+            </div>
+            <div class="half">
+                <p class="question-title">If I really like a month's coffee, can I reorder it?</p>
+                <p>Our coffee selections each month are highly seasonal and generally only available once a year. Sometimes we may over re-orders of a previous month's coffee as supply allows.</p>
+            </div>
+            <div class="half">
+                <p class="question-title">What countries do you ship to?</p>
+                <p>Currently we ship only to the United States. We are looking into adding support for additional countries.</p>
+            </div>
+            <div class="half">
+                <p class="question-title">How can I make changes to my account?</p>
+                <p>You can pause, cancel and make changes to your account by logging into the Quest Coffee Club storefront powered by Plasso.</p>
+            </div>
         </div>
-    </div>       
+    </div>
+</div>    
+<div class="spacer-60"></div>
+<div class="outer">
+    <div class="inner">
+        <h2>Still have some questions?</h2>
+        <p class="question-title">Contact us and we will get back asap</p>
+        <p>Email us at hello@questcoffeclub.com. You may also reach out to us on Facebook at <a href="http://facebook.com/questcoffeeclub">facebook.com/questcoffeeclub</a> or on Instagram at <a href="http://instagram.com/questcoffeeclub">instagram.com/questcoffeeclub</a>.</p>
+    </div>
 </div>
-<div class="spacer-80"></div>
+<div class="spacer-60"></div>
 {% include cta.html %}
