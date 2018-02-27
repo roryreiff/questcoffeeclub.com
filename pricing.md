@@ -10,6 +10,13 @@ permalink: /pricing/
 <div class="spacer-60"></div>
 <div class="outer">
     <div class="inner">
+        <h2>What are people saying about us?</h2>
+        {% include reviews-preview-no-button.md %}
+    </div> 
+</div> 
+<div class="spacer-60"></div>
+<div class="outer">
+    <div class="inner">
         <div class="expand">
             <div class="third">
                 <h3>Want to purchase this as a gift?</h3>
