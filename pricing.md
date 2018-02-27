@@ -34,7 +34,7 @@ permalink: /pricing/
             </div>
             <div class="third">
                 <h3>Want to upgrade your office coffee?</h3>
-                <p>Our customized business subscription plans set you up to have spectacular coffee on hand at all times in your workspace.</p>
+                <p>Our business subscription plans set you up to have spectacular coffee on hand at all times in your workspace.</p>
                 <a href="/business-subscriptions" class="button button-secondary-white button-with-arrow button-medium button-left">See more about business plans<span class="button-arrow"></span></a>
             </div>
         </div>
