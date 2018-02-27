@@ -10,7 +10,6 @@ keywords: coffee, Colombia, help, questions, subscription, shipping, support, co
 <div class="spacer-60"></div>
 <div class="outer">
     <div class="inner">
-        <h2>Hopefully these answer all your questions...</h2>
         <div class="expand">
             <div class="half">
                 <p class="question-title">When do I receive my coffee?</p>
