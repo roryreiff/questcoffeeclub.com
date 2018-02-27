@@ -297,10 +297,12 @@
         text-align: center;
         .box { 
             margin-top: 100px;
-            width: 100%; 
+            width: 100%;
+            padding: 0;
         }
         .button { padding: 0; }
         p.highlight {
+            font-size: 14px !important;
             .circle {
                 margin: 0 8px
             }
