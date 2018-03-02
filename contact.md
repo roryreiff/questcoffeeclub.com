@@ -10,6 +10,7 @@ description: Contact us at Quest Coffee club with any questions, comments or fee
 
 <div class="outer">
     <div class="inner">
+        <p>Please complete the form below to send us a message. You may also message us on Facebook at <a href="http://facebook.com/questcoffeeclub">facebook.com/questcoffeeclub</a> or directly via email at <a href="mailto:hello@questcoffeeclub.com">hello@questcoffeeclub.com</a>.</p>
         <form action="/contact" method="POST" id="general-contact-form">
         <div class="expand">
             <div class="half">
@@ -37,7 +38,7 @@ description: Contact us at Quest Coffee club with any questions, comments or fee
     </div>
 </form>
 <div id="thankYou" style="display:none;"> 
-    <h4>Thank you for your interest. Someone will be in touch with you soon</h4>
+    <p class="dark">Thank you for your interest. Someone will be in touch with you soon.</p>
 </div>
 </div>
 </div>
