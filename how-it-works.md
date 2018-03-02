@@ -39,7 +39,7 @@ keywords: subscription, coffee, single origin, small-batch roasted, selection, p
                     <li>Tasting notes</li>
                     <li>Story behind the coffee</li>
                 </ul>
-                <span class="highlight-bubble">Includes Free Shipping</span>
+                <p class="highlight">Free shipping <span class="circle"></span> Cancel any time</p>
             </div>
             <div class="two-thirds image-right">
                 <img src="/assets/images/temp-image-two-thirds@2x.png" />
