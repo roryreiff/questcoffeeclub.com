@@ -24,7 +24,7 @@ keywords: coffee, single origin, Colombia, Colombian, small-batch roasted, gift,
                 <span class="highlight-bubble">Includes Free Shipping</span>
             </div>
             <div class="two-thirds image-right">
-                <img src="/assets/images/temp-image-two-thirds@2x.png" />
+                <img src="/assets/images/what-will-they-get-gift-subscriptions@2x.jpg" />
             </div>
         </div>
     </div>

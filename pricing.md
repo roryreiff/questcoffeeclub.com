@@ -24,13 +24,13 @@ permalink: /pricing/
                 <a href="/gift-subscriptions" class="button button-secondary-white button-with-arrow button-medium button-left">Shop Gift Subscriptions<span class="button-arrow"></span></a>
             </div>
             <div class="two-thirds image-right">
-                <img src="/assets/images/temp-image-two-thirds@2x.png" />
+                <img src="/assets/images/want-to-purchase-this-as-a-gift@2x.jpg" />
             </div>
         </div>
         <div class="spacer-120"></div>
         <div class="expand">
             <div class="two-thirds image-left">
-                <img src="/assets/images/temp-image-two-thirds@2x.png" />
+                <img src="/assets/images/upgrade-your-office-coffee@2x.jpg" />
             </div>
             <div class="third">
                 <h3>Want to upgrade your office coffee?</h3>

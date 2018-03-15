@@ -5,8 +5,9 @@
     background-position: 50% 50%;
     background-color: #292929;
     h1 {
-        padding: 0 225px;
+        padding: 0 200px;
         margin-bottom: 40px;
+        margin-top: -25px;
     }
     .hero-center {
         position: absolute;
@@ -17,7 +18,7 @@
         justify-content: center;
         z-index: 110;
     }
-    .hero-background, .hero-cover {
+    .hero-background, .hero-cover, .hero-overlay {
         position: absolute;
         top: 0;
         width: 100%;
@@ -25,6 +26,10 @@
         z-index: 90;
         background-size: cover;
         background-position: 50% 50%;
+    }
+    .hero-overlay {
+        background: rgba(41,41,41,.35);
+        z-index: 100;
     }
     .hero-cover {
         z-index: 100;
@@ -83,7 +88,7 @@
 }
 
 #hero-pricing .hero-background {
-    background-image: url(/assets/images/hero/hero-landing@2x.jpg);
+    background-image: url(/assets/images/hero/hero-pricing@2x.jpg);
 }
 #hero-pricing  {
     
@@ -130,7 +135,7 @@
 }
 
 #hero-how-it-works .hero-background {
-    background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
+    background-image: url(/assets/images/hero/hero-how-it-works@2x.jpg);
 }
 
 #hero-about .hero-background {
@@ -162,6 +167,9 @@
 #hero-privacy-policy .hero-background {
     background-image: url(/assets/images/hero/hero-faqs@2x.jpg);
 }
+#hero-reviews .hero-background {
+    background-image: url(/assets/gifs/reviews-32.gif);
+}
 #hero-reviews {
     
     .stars {
@@ -171,6 +179,9 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         margin-right: 10px;
+    }
+    .stars-5 {
+        background-image: url(/assets/images/hero/hero-stars-5@2x.png);
     }
     .stars-4-8 {
         background-image: url(/assets/images/hero/hero-stars-4.8@2x.png);
