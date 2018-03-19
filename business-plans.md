@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: business-subscriptions
 title: Business Subscriptions
 permalink: /business-plans/
 description: Wow your employess and clients with amazing coffee. Single origin, small-batch roasted, Colombia coffee available in customized plans for your workspace.
