@@ -38,7 +38,7 @@ keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colom
             <div class="third">
                 <h3>Say hi to our February coffee, Venga Le Digo!</h3>
                 <p>With tasting notes of chocolate, toffee, lemon, cherry, and peanut, this beauty from the Cauca region is as sweet and complex as it's all women producers.</p>
-                <a href="/our-coffee/02-18-venga-le-digo.html" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
+                <a href="/our-coffees/" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
             </div>
             <div class="two-thirds image-right">
                 <img src="/assets/images/temp-image-two-thirds@2x.png" />
