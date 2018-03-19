@@ -21,7 +21,7 @@
         color: rgba(255,255,255,.35);
     }
     
-    #gift-subscription-dropdown {
+    .select-quantity-dropdown {
         margin: 0;
         text-transform: uppercase;
         color: #fff;
@@ -48,7 +48,7 @@
         color: #fff !important;
         margin: 0 15px 15px 0;
     }
-    #gift-subscription-dropdown:focus {
+    .select-quantity-dropdown:focus {
         outline: none;
     }
     .button {
@@ -59,7 +59,7 @@
 }
 
 #cta-business-subscriptions {
-    #gift-subscription-dropdown {
+    .select-quantity-dropdown {
         padding-right: 50px !important;
         background-position: 90% 50%;
     }

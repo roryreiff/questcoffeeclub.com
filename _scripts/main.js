@@ -45,6 +45,72 @@ $("#hero-reviews #reviews-total").hover(
 //});
 //
 
+$(".select-quantity-dropdown").change(function () {
+    var value = this.value;
+    var type = $(this).attr("id");
+    switch (type) {
+        case "business-subscription-dropdown":
+            var href = $("#cta-add-to-cart");
+            switch(value) {
+                case "1":
+                    href.attr("data-pl-seats", "1");
+                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    break;
+                case "2":
+                    href.attr("data-pl-seats", "2");
+                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    break;
+                case "3":
+                    href.attr("data-pl-seats", "3");
+                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    break;
+                case "4":
+                    href.attr("data-pl-seats", "4");
+                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    break;
+                case "sample":
+                    href.attr("data-pl-seats", "1");
+                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/product/12_oz_sample");
+                    break;
+                default:
+                    // code
+                    break;
+            }
+            break;        
+        case "gift-subscription-dropdown":
+            var href = $("#cta-add-to-cart");
+            switch(value) {
+                case "3":
+                    href.attr("href", "https://plasso.com/s/zYdw1vzFkc/product/3_month_gift_sub");
+                    break;
+                case "6":
+                    href.attr("href", "https://plasso.com/s/zYdw1vzFkc/product/6_month_gift_sub");
+                    break;
+                case "12":
+                    href.attr("href", "https://plasso.com/s/zYdw1vzFkc/product/12_month_gift_sub");
+                    break;
+            }
+            break;
+        case "individual-subscription-dropdown":
+            var data = $("#cta-add-to-cart");
+            switch(value) {
+                case "1":
+                    data.attr("data-pl-seats", "1");
+                    break;
+                case "2":
+                    data.attr("data-pl-seats", "2");
+                    break;
+                case "3":
+                    data.attr("data-pl-seats", "3");
+                    break;
+                case "4":
+                    data.attr("data-pl-seats", "4");
+                    break;
+            }
+            break;
+    }
+});
+
 // Pricing dropdown
 $("#price-quantity-select").change(function () {
     var value = this.value;
@@ -60,6 +126,7 @@ $("#price-quantity-select").change(function () {
             price.html("$20");    
         } else {
             price.html("$70");
+            
         }
         plural.removeClass("visible");
     }

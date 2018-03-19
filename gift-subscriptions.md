@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: gift-subscriptions
 title: Gift Subscriptions
 permalink: /gift-subscriptions/
 description: Wow them with amazing coffee. Single origin, small-batch roasted, Colombia coffee available in 3, 6 or 12 month plans.
