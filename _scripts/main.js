@@ -50,44 +50,68 @@ $(".select-quantity-dropdown").change(function () {
     var type = $(this).attr("id");
     switch (type) {
         case "business-subscription-dropdown":
-            var href = $("#cta-add-to-cart");
+            var href1 = $("#cta-add-to-cart-1");
+            var href2 = $("#cta-add-to-cart-2");
+            var href3 = $("#cta-add-to-cart-3");
+            var href4 = $("#cta-add-to-cart-4");
+            var href5 = $("#cta-add-to-cart-5");
             switch(value) {
                 case "1":
-                    href.attr("data-pl-seats", "1");
-                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    href1.removeClass("hide");
+                    href2.addClass("hide");
+                    href3.addClass("hide");
+                    href4.addClass("hide");
+                    href5.addClass("hide");
                     break;
                 case "2":
-                    href.attr("data-pl-seats", "2");
-                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    href1.addClass("hide");
+                    href2.removeClass("hide");
+                    href3.addClass("hide");
+                    href4.addClass("hide");
+                    href5.addClass("hide");
                     break;
                 case "3":
-                    href.attr("data-pl-seats", "3");
-                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    href1.addClass("hide");
+                    href2.addClass("hide");
+                    href3.removeClass("hide");
+                    href4.addClass("hide");
+                    href5.addClass("hide");
                     break;
                 case "4":
-                    href.attr("data-pl-seats", "4");
-                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/plan/business_sub");
+                    href1.addClass("hide");
+                    href2.addClass("hide");
+                    href3.addClass("hide");
+                    href4.removeClass("hide");
+                    href5.addClass("hide");
                     break;
                 case "sample":
-                    href.attr("data-pl-seats", "1");
-                    href.attr("href", "https://plasso.com/s/q9OugNDtIG/product/12_oz_sample");
-                    break;
-                default:
-                    // code
+                    href1.addClass("hide");
+                    href2.addClass("hide");
+                    href3.addClass("hide");
+                    href4.addClass("hide");
+                    href5.removeClass("hide");
                     break;
             }
             break;        
         case "gift-subscription-dropdown":
-            var href = $("#cta-add-to-cart");
+            var href1 = $("#cta-add-to-cart-1");
+            var href2 = $("#cta-add-to-cart-2");
+            var href3 = $("#cta-add-to-cart-3");
             switch(value) {
                 case "3":
-                    href.attr("href", "https://plasso.com/s/zYdw1vzFkc/product/3_month_gift_sub");
+                    href1.removeClass("hide");
+                    href2.addClass("hide");
+                    href3.addClass("hide");
                     break;
                 case "6":
-                    href.attr("href", "https://plasso.com/s/zYdw1vzFkc/product/6_month_gift_sub");
+                    href1.addClass("hide");
+                    href2.removeClass("hide");
+                    href3.addClass("hide");
                     break;
                 case "12":
-                    href.attr("href", "https://plasso.com/s/zYdw1vzFkc/product/12_month_gift_sub");
+                    href1.addClass("hide");
+                    href2.addClass("hide");
+                    href3.removeClass("hide");
                     break;
             }
             break;
