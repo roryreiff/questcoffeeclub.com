@@ -41,7 +41,7 @@ keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colom
                 <a href="/our-coffees/" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
             </div>
             <div class="two-thirds image-right">
-                <img src="/assets/images/temp-image-two-thirds@2x.png" />
+                <img src="/assets/images/say-hi-to-our-coffee@2x.jpg" />
             </div>
         </div>
     </div>
