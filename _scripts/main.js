@@ -50,6 +50,7 @@ $(".select-quantity-dropdown").change(function () {
     var type = $(this).attr("id");
     switch (type) {
         case "business-subscription-dropdown":
+            console.log("business CTA is here to stay");
             var href1 = $("#cta-add-to-cart-1");
             var href2 = $("#cta-add-to-cart-2");
             var href3 = $("#cta-add-to-cart-3");
@@ -119,16 +120,16 @@ $(".select-quantity-dropdown").change(function () {
             var data = $("#cta-add-to-cart");
             switch(value) {
                 case "1":
-                    data.attr("data-pl-seats", "1");
+                    data.attr("data-pl-units", "1");
                     break;
                 case "2":
-                    data.attr("data-pl-seats", "2");
+                    data.attr("data-pl-units", "2");
                     break;
                 case "3":
-                    data.attr("data-pl-seats", "3");
+                    data.attr("data-pl-units", "3");
                     break;
                 case "4":
-                    data.attr("data-pl-seats", "4");
+                    data.attr("data-pl-units", "4");
                     break;
             }
             break;
@@ -136,47 +137,60 @@ $(".select-quantity-dropdown").change(function () {
 });
 
 // Pricing dropdown
-$("#price-quantity-select").change(function () {
+$("#join-now-quantity-select").change(function () {
     var value = this.value;
-    var type = "individual";
-    if ($(this).hasClass("business-quantity")) {
-        var type = "business";
-    }
     var price = $("#select-price");
     var plural = $(".plural");
+    var button = $("#add-to-cart");
     console.log(value);
     if (value == "1") {
-        if (type == "individual") {
-            price.html("$20");    
-        } else {
-            price.html("$70");
-            
-        }
+        price.html("$20");    
         plural.removeClass("visible");
+        button.attr("data-pl-units", "1");
     }
     if (value == "2") {
-        if (type == "individual") {
-            price.html("$30");    
-        } else {
-            price.html("$130");
-        }
+        price.html("$30");    
         plural.addClass("visible");
+        button.attr("data-pl-units", "2");
     }
     if (value == "3") {
-        if (type == "individual") {
-            price.html("$45");    
-        } else {
-            price.html("$190");
-        }
+        price.html("$45");    
         plural.addClass("visible");
+        button.attr("data-pl-units", "3");
     }
     if (value == "4") {
-        if (type == "individual") {
-            price.html("$60");    
-        } else {
-            price.html("$250");
-        }
+        price.html("$60");    
         plural.addClass("visible");
+        button.attr("data-pl-units", "4");
+    }
+});
+
+// Business pricing dropdown
+$("#join-now-quantity-select-biz").change(function () {
+    var value = this.value;
+    var price = $("#select-price");
+    var plural = $(".plural");
+    var button = $("#add-to-cart");
+    console.log(value);
+    if (value == "1") {
+        price.html("$70");    
+        plural.removeClass("visible");
+        button.attr("data-pl-units", "1");
+    }
+    if (value == "2") {
+        price.html("$130");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "2");
+    }
+    if (value == "3") {
+        price.html("$195");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "3");
+    }
+    if (value == "4") {
+        price.html("$250");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "4");
     }
 });
 
