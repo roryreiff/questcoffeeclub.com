@@ -38,7 +38,7 @@ keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colom
             <div class="third">
                 <h3>Say hi to our March coffee</h3>
                 <p>Located in the high altitudes of Buesaco, Nariño, lies a very special coffee farm by the name of Vereda Las Cochitas...</p>
-                <a href="/our-coffees/" class="button button-secondary-white button-with-arrow button-medium button-left">See more of our coffees<span class="button-arrow"></span></a>
+                <a href="/our-coffees/03-18-vereda-las-cochitas" class="button button-secondary-white button-with-arrow button-medium button-left">Read more<span class="button-arrow"></span></a>
             </div>
             <div class="two-thirds image-right">
                 <img src="/assets/images/product-shot@2x.jpg" />

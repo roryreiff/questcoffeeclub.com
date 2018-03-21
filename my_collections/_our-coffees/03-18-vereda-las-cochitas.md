@@ -12,8 +12,8 @@ tasting_notes: Sweet citrus, dried dates, dark cocao, lemon
 month: March 2018
 roast_date: 2018-03-13 12:00:00 -0000
 background_image: /assets/images/coffee-pages/coffee_background_vereda_las_cochitas@2x.jpg
-image_coffee: /assets/images/coffee-pages/coffee_image_venga_le_digo@2x.jpg
-image_thumbnail: /assets/images/coffee-pages/coffee_thumbnail_venga_le_digo@2x.jpg
+image_coffee: /assets/images/coffee-pages/coffee_image_vereda_las_cochitas@2x.jpg
+image_thumbnail: /assets/images/coffee-pages/coffee_thumbnail_vereda_las_cochitas@2x.jpg
 teaser: Located in the high altitudes of Buesaco, Nariño, lies a very special coffee farm by the name of Vereda Las Cochitas...
 ---
 <h5>Our journey continues...</h5>
