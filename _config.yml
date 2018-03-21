@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://questcoffeeclub.com" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: questcoffeeclub
 facebook_username:  questcoffeeclub
+cover: "/assets/images/site-cover@2x.jpg"
 
 # Build settings
 markdown: kramdown
