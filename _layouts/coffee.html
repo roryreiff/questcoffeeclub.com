@@ -2,6 +2,7 @@
 <html ⚡ lang="en">
     {% include head.html %}
     <body>
+        {% include cart-toggle.html %}
         {% include header.html %}
         <div class="outer hero-coffee-page" style="background-image: url({{page.background_image}});">
             <div class="hero-center">
@@ -43,6 +44,7 @@
         {% include cta.html %}
         {% include footer.html %}
         {% include analytics.html %}
+        {% include plasso-individual.html %}
         {% include js.html %}  
         {% minibundle js %}
             source_dir: _scripts

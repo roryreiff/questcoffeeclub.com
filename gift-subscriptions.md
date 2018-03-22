@@ -21,7 +21,7 @@ keywords: coffee, single origin, Colombia, Colombian, small-batch roasted, gift,
                     <li>Story behind the coffee</li>
                     <li>Handwritten welcome note</li>
                 </ul>
-                <p class="highlight">Free Shipping <span class="circle"></span> Choose how recipient get's notified</p>
+                <p class="highlight">Free Shipping <span class="circle"></span> <br>Choose how recipient get's notified</p>
             </div>
             <div class="two-thirds image-right">
                 <img src="/assets/images/what-will-they-get-gift-subscriptions@2x.jpg" />
