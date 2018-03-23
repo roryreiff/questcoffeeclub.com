@@ -1,26 +1,7 @@
 <div id="hero-pricing" class="outer hero pricing-select">
     <div class="hero-center">
     <div class="inner">
-        <div class="box third">
-            <p class="price center"><span class="amount" id="select-price">$20</span>/month</p>
-            <p class="center">Each month you receive</p>
-            <div class="center">
-            <ul>
-                <li>
-                    <select class="quantity-select" name="quantity" id="join-now-quantity-select">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select> 12oz bag<span class="plural">s</span> of coffee
-                </li>
-                <li>Tasting notes</li>
-                <li>Story behind the coffee</li>
-            </ul>
-            </div>
-            <div class="center"><a id="add-to-cart" data-pl-units="1" href="https://plasso.com/s/pZmkBplK2G/plan/individual_sub" class="button button-main button-large">Add to cart</a></div>
-            <p class="highlight center">Free shipping <span class="circle"></span> Cancel any time</p>
-        </div>
+    {% include pricing-box.html %}
     </div>
     </div>
     <div class="hero-cover"></div>

@@ -2,6 +2,7 @@
 <html ⚡ lang="en">
     {% include head.html %}
     <body>
+        {% include join-now-modal.html %}
         {% include cart-toggle.html %}
         {% include header.html %}
         <div class="outer hero-coffee-page" style="background-image: url({{page.background_image}});">
@@ -54,6 +55,7 @@
                 - jquery.waitforimages.min
                 - masonry.pkgd.min
                 - main
+                - join-now-modal
         {% endminibundle %}
     </body>
 </html>
