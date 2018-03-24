@@ -47,28 +47,28 @@
             top: 0;
             z-index: 100;
         }
-    .modal {
-      background:white;
-      display:inline-block;
-      border-radius: 16px;
-      position:relative;
-        width: 900px;
-        z-index: 200;
-    }
-    #pricing-box {
-        width: 50%;
-        box-shadow: none;
-    }
-    #modal-image {
-        width: 50%;
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-        background-image: url(/assets/images/product-shot@2x.jpg);
-        background-size: cover;
-        background-position: 50% 50%;
-        border-radius: 0 16px 16px 0;
+        .modal {
+            background:white;
+            display:inline-block;
+            border-radius: 16px;
+            position:relative;
+            width: 900px;
+            z-index: 200;
+        }
+        #pricing-box {
+            width: 50%;
+            box-shadow: none;
+        }
+        #modal-image {
+            width: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            background-image: url(/assets/images/product-shot@2x.jpg);
+            background-size: cover;
+            background-position: 50% 50%;
+            border-radius: 0 16px 16px 0;
         }
     
     }
@@ -142,4 +142,41 @@
   100% {
     transform:scale(0);
   }
+}
+
+@media screen and (max-width: 1240px) {
+    #join-now-modal { 
+    
+        .modal {
+            width: 450px !important;
+            #pricing-box {
+                width: 100%;
+            }
+            #modal-image {
+                display: none;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 640px) { 
+    .box {
+        margin-bottom: 0;
+    }
+    #join-now-modal {  
+        padding: 0;
+        .modal { 
+            padding: 0 !important;
+            height: auto;
+        width: 350px !important;
+            #pricing-box {
+                width: 100%;
+                padding: 0;
+            }
+            #modal-image {
+                display: none;
+            }
+        }
+    }
 }

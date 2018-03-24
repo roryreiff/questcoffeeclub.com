@@ -39,3 +39,15 @@
     .button { padding: 0 100px;}
     
 }
+
+@media screen and (max-width: 640px) { 
+    #pricing-box {
+        .button { padding: 0; }
+        p.highlight {
+            font-size: 14px !important;
+            .circle {
+                margin: 0 8px
+            }
+        }
+    }
+}
