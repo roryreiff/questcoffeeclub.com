@@ -100,7 +100,7 @@
 }
 
 #hero-contact .hero-background {
-    background-image: url(/assets/images/hero/hero-gift-subscriptions@2x.jpg);
+    background-image: url(/assets/images/hero/hero-contact@2x.jpg);
 }
 
 #hero-our-coffee .hero-background {
@@ -125,10 +125,10 @@
     background-image: url(/assets/images/hero/hero-faqs@2x.jpg);
 }
 #hero-reviews .hero-background {
-    background-image: url(/assets/gifs/reviews-32.gif);
+    background-image: url(/assets/images/hero/hero-reviews@2x.jpg);
 }
 #hero-reviews {
-    
+    h1 { margin-bottom: 15px; }
     .stars {
         width: 144px;
         height: 24px;
@@ -154,7 +154,7 @@
         margin-left: 8px;
     }
     #reviews-total { 
-        margin: -10px auto 0 auto ;
+        margin: -20px auto 0 auto ;
         position: relative;
         cursor: pointer; 
         height: 18px;

@@ -1,29 +1,30 @@
 #cart-toggle {
-    width: 50px;
-    height: 70px;
-    background: #774C9B;
-    position: fixed;
+    position: relative;
+    top: 12px;
     right: 0;
-    top: 50%;
-    margin-top: -35px;
+    width: 50px;
+    height: 35px;
+    background: #774C9B;
     z-index: 10000;
     box-shadow: 0 0 20px rgba(0,0,0,.08);
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px;
     background-image: url(/assets/images/cart-icon@2x.png);
-    background-size: 18px 16px;
-    background-position: 57% 70%;
+    background-size: 16px 15px;
+    background-position: 10px 50%;
     background-repeat: no-repeat;
     cursor: pointer;
-    span.count {
+    span {
         display: block;
-        margin-top: 12px;
+        padding: 0 10px 0 0;
+        position: absolute;
+        right: 1px;
+        height: 35px;
+        line-height: 35px;
         font-size: 16px;
         letter-spacing: 1.6px;
         text-transform: uppercase;
-        width: 100%;
         font-weight: 500;
         color: #fff;
-        text-align: center;
-        width: 100%;
+        text-align: right;
     }
 }
