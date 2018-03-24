@@ -4,15 +4,26 @@
     right: 0;
     width: 50px;
     height: 35px;
-    background: #774C9B;
     z-index: 10000;
     box-shadow: 0 0 20px rgba(0,0,0,.08);
     border-radius: 4px;
-    background-image: url(/assets/images/cart-icon@2x.png);
-    background-size: 16px 15px;
-    background-position: 10px 50%;
-    background-repeat: no-repeat;
     cursor: pointer;
+    background: #6879e4; /* Old browsers */
+    background: -moz-linear-gradient(left, #6879e4 0%, #7550a8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #6879e4 0%,#7550a8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #6879e4 0%,#7550a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6879e4', endColorstr='#7550a8',GradientType=1 ); /* IE6-9 */
+    .cart-icon {
+        position: absolute;
+        width: 16px;
+        height: 15px;
+        left: 12px;
+        top: 10px;
+        background-image: url(/assets/images/cart-icon@2x.png);
+        background-size: 16px 15px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
     span {
         display: block;
         padding: 0 10px 0 0;
