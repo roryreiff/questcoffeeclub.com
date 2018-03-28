@@ -27,7 +27,7 @@
         letter-spacing: 1.4px;
         text-transform: uppercase;
         font-weight: 600;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         .circle {
             display: inline-block;
             width: 6px;
@@ -44,6 +44,7 @@
 @media screen and (max-width: 640px) { 
     #pricing-box {
         margin-bottom: 0 !important;
+        padding: 0;
         .button { padding: 0; }
         p.highlight {
             font-size: 14px !important;
