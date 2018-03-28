@@ -1,41 +1,40 @@
 #cart-toggle {
     position: relative;
-    top: 12px;
+    top: 3px;
     right: 0;
-    width: 50px;
-    height: 35px;
+    width: 21px;
+    height: 20px;
     z-index: 10000;
     box-shadow: 0 0 20px rgba(0,0,0,.08);
     border-radius: 4px;
     cursor: pointer;
-    background: #6879e4; /* Old browsers */
-    background: -moz-linear-gradient(left, #6879e4 0%, #7550a8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #6879e4 0%,#7550a8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #6879e4 0%,#7550a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6879e4', endColorstr='#7550a8',GradientType=1 ); /* IE6-9 */
     .cart-icon {
         position: absolute;
+        left: 0;
         width: 16px;
-        height: 15px;
-        left: 12px;
-        top: 10px;
+        height: 20px;
         background-image: url(/assets/images/cart-icon@2x.png);
-        background-size: 16px 15px;
+        background-size: 16px 20px;
         background-position: 0 0;
         background-repeat: no-repeat;
     }
     span {
         display: block;
-        padding: 0 10px 0 0;
+        padding: 0 0 0 0;
         position: absolute;
-        right: 1px;
-        height: 35px;
-        line-height: 35px;
-        font-size: 16px;
-        letter-spacing: 1.6px;
+        right: 0;
+        padding-top: 2px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        letter-spacing: 0;
         text-transform: uppercase;
         font-weight: 500;
         color: #fff;
         text-align: right;
     }
+}
+
+#cart-toggle:hover {
+    opacity: .85;
 }
