@@ -1,4 +1,5 @@
 #pricing-box  {
+    padding-bottom: 30px !important;
     box-shadow: none;
     width: 450px;
     .price, p, li {
@@ -42,9 +43,12 @@
 
 @media screen and (max-width: 640px) { 
     #pricing-box {
+        margin-bottom: 0 !important;
         .button { padding: 0; }
         p.highlight {
             font-size: 14px !important;
+            padding-top: 10px !important;
+            padding-bottom: 0;
             .circle {
                 margin: 0 8px
             }
