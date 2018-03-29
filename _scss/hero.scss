@@ -37,14 +37,32 @@
     }
 }
 
-#scroll {
-    width: 100px;
-    height: 50px;
+#scroll-arrow {
+    display: none;
+    width: 53px;
+    height: 40px;
     position: absolute;
-    top: 0;
-    left: 0;
-    background: red;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -26px;
+    background-image: url(/assets/images/scroll-arrow@2x.png);
+    background-size: 53px 40px;
+    z-index: 20000;
 }
+#scroll-arrow.show {
+    display: block;
+    -webkit-animation: MoveUpDown 1500ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 30px;
+  }
+  50% {
+    bottom: 50px;
+  }
+}
+
 #hero-pricing {
     height: 750px;
 }

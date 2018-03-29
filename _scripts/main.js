@@ -1,5 +1,19 @@
 // heros
 
+// height of homepage hero
+if($("#hero-landing" + name).length > 0) {
+    var windowHeight = $(window).height();
+    if (windowHeight < 850 && windowHeight > 650) {
+        $("#hero-landing").css("height", windowHeight);
+        $("#scroll-arrow").delay(3000).queue(function(next){
+            $(this).addClass("show");
+        });
+        $(window).scroll(function (event) {
+            $("#scroll-arrow").removeClass("show");
+        });
+    }
+}
+    
 $('.hero-background').waitForImages().done(function() {
     $('.hero-cover').fadeOut(650);
 });
