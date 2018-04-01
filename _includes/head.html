@@ -10,16 +10,11 @@
     <meta name="keywords" content="{{page.keywords}}">
 
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="product" />
     <meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:description" content="{{page.description}}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url}}" />
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}" />
-    <meta property="article:publisher" content="https://www.facebook.com/questcoffeeclub" />{% if excerpt %}
-    <meta property="article:author" content="https://www.facebook.com/{{ site.facebook }}" />
-    <meta property="article:published_time" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}" />
-    <meta property="article:modified_time" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}" />{% endif %}{% if page.tags.size > 0 %}
-    <meta property="article:tag" content="{{ page.tags | first | capitalizeall }}" />{% endif %}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
@@ -33,8 +28,8 @@
     <meta name="twitter:creator" content="@{{ site.twitter }}" />{% if excerpt %}
     <meta property="og:image:width" content="1400" />
     <meta property="og:image:height" content="933" />{% else %}
-    <meta property="og:image:width" content="2000" />
-    <meta property="og:image:height" content="666" />{% endif %}
+    <meta property="og:image:width" content="1800" />
+    <meta property="og:image:height" content="1248" />{% endif %}
 
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">    
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">

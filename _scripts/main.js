@@ -150,7 +150,7 @@ $(".select-quantity-dropdown").change(function () {
     }
 });
 
-// Pricing dropdown
+// Pricing dropdown join now dialog
 $("#join-now-quantity-select").change(function () {
     var value = this.value;
     var price = $("#select-price");
@@ -179,12 +179,41 @@ $("#join-now-quantity-select").change(function () {
     }
 });
 
+// Pricing dropdown pricing page
+$("#join-now-quantity-select-pricing").change(function () {
+    var value = this.value;
+    var price = $("#select-price-price");
+    var plural = $(".plural-price");
+    var button = $("#add-to-cart-price");
+    console.log(value);
+    if (value == "1") {
+        price.html("$20");    
+        plural.removeClass("visible");
+        button.attr("data-pl-units", "1");
+    }
+    if (value == "2") {
+        price.html("$30");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "2");
+    }
+    if (value == "3") {
+        price.html("$45");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "3");
+    }
+    if (value == "4") {
+        price.html("$60");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "4");
+    }
+});
+
 // Business pricing dropdown
 $("#join-now-quantity-select-biz").change(function () {
     var value = this.value;
-    var price = $("#select-price");
+    var price = $("#select-biz-price");
     var plural = $(".plural");
-    var button = $("#add-to-cart");
+    var button = $("#add-to-cart-biz");
     console.log(value);
     if (value == "1") {
         price.html("$70");    
