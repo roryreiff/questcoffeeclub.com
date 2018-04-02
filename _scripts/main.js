@@ -231,7 +231,7 @@ $("#join-now-quantity-select-biz").change(function () {
         button.attr("data-pl-units", "3");
     }
     if (value == "4") {
-        price.html("$250");    
+        price.html("$260");    
         plural.addClass("visible");
         button.attr("data-pl-units", "4");
     }
