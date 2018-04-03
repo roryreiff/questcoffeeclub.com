@@ -33,7 +33,7 @@ keywords: coffee, Colombia, help, questions, subscription, shipping, support, co
             </div>
             <div class="half">
                 <p class="question-title">If I really like a month's coffee, can I reorder it?</p>
-                <p>Our coffee selections each month are highly seasonal and generally only available once a year. Sometimes we may over re-orders of a previous month's coffee as supply allows.</p>
+                <p>Our coffee selections each month are highly seasonal and generally only available once a year. Sometimes we may offer re-orders of a previous month's coffee as supply allows.</p>
             </div>
             <div class="half">
                 <p class="question-title">What countries do you ship to?</p>
