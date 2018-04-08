@@ -20,6 +20,8 @@
         margin-bottom: 40px;
         align-items: baseline;
     }
+    .plural, .plural-price { display: none; }
+    .visible { display: inline-block; }
     p.highlight {
         line-height: 24px;
         color: #774D9B;
