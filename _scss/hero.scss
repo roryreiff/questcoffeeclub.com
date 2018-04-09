@@ -7,7 +7,7 @@
     h1 {
         padding: 0 200px;
         margin-bottom: 40px;
-        margin-top: -25px;
+        margin-top: 20px;
     }
     .hero-center {
         position: absolute;
@@ -35,6 +35,7 @@
         z-index: 100;
         background-color: #292929;
     }
+    
 }
 
 #scroll-arrow {
@@ -113,6 +114,11 @@
 /* images */
 #hero-landing .hero-background {
     background-image: url(/assets/images/hero/hero-landing-4@2x.jpg);
+}
+
+/* images */
+#hero-landing-biz-gigster .hero-background {
+    background-image: url(/assets/images/hero/hero-home-gigster@2x.jpg);
 }
 
 #hero-pricing .hero-background {

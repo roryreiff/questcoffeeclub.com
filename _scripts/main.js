@@ -13,7 +13,23 @@ if($("#hero-landing" + name).length > 0) {
         });
     }
 }
-    
+
+// height of homepage hero
+if ($("#hero-landing-biz-gigster").length > 0) {
+    console.log("gigster page");
+    var windowHeight = $(window).height();
+    if (windowHeight < 850 && windowHeight > 650) {
+        $("#hero-landing-biz-gigster").css("height", windowHeight);
+        $("#scroll-arrow").delay(3000).queue(function(next){
+            $(this).addClass("show");
+        });
+        $(window).scroll(function (event) {
+            $("#scroll-arrow").removeClass("show");
+        });
+    }
+}
+
+
 $('.hero-background').waitForImages().done(function() {
     $('.hero-cover').fadeOut(650);
 });

@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: gigster
 title: Single origin Colombian coffee delivered to your door
-permalink: /
+permalink: /gigster
 description: Quest Coffee Club sends you single origin, small-batch roasted Colombian coffee delivered directly to your door.
 keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colombian, fresh, whole-bean, beans, coffee beans
 ---
 
-{% include hero-landing.html %}
+{% include hero-landing-gigster.html %}
 <div class="spacer-60 spacer-50-mobile"></div>
 <div class="outer">
     <div class="inner">
