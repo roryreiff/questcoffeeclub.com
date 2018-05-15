@@ -174,22 +174,22 @@ $("#join-now-quantity-select").change(function () {
     var button = $("#add-to-cart");
     console.log(value);
     if (value == "1") {
-        price.html("$20");    
+        price.html("$25");    
         plural.removeClass("visible");
         button.attr("data-pl-units", "1");
     }
     if (value == "2") {
-        price.html("$30");    
+        price.html("$40");    
         plural.addClass("visible");
         button.attr("data-pl-units", "2");
     }
     if (value == "3") {
-        price.html("$45");    
+        price.html("$60");    
         plural.addClass("visible");
         button.attr("data-pl-units", "3");
     }
     if (value == "4") {
-        price.html("$60");    
+        price.html("$80");    
         plural.addClass("visible");
         button.attr("data-pl-units", "4");
     }
@@ -203,22 +203,22 @@ $("#join-now-quantity-select-pricing").change(function () {
     var button = $("#add-to-cart-price");
     console.log(value);
     if (value == "1") {
-        price.html("$20");    
+        price.html("$25");    
         plural.removeClass("visible");
         button.attr("data-pl-units", "1");
     }
     if (value == "2") {
-        price.html("$30");    
+        price.html("$40");    
         plural.addClass("visible");
         button.attr("data-pl-units", "2");
     }
     if (value == "3") {
-        price.html("$45");    
+        price.html("$60");    
         plural.addClass("visible");
         button.attr("data-pl-units", "3");
     }
     if (value == "4") {
-        price.html("$60");    
+        price.html("$80");    
         plural.addClass("visible");
         button.attr("data-pl-units", "4");
     }
