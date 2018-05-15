@@ -37,8 +37,8 @@ keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colom
         <div class="expand">
             <div class="third">
                 <h3>Say hi to our April coffee</h3>
-                <p>With tasting notes of citrus, sweet tea and lemon peel, "Los Detalles" is a remarkable example of how climate and attention to detail can produce an extremely impressive cup of coffee.</p>
-                <a href="/our-coffees/04-18-los-detalles" class="button button-secondary-white button-with-arrow button-medium button-left">Read more<span class="button-arrow"></span></a>
+                <p>With tasting notes of Meyer lemon, chocolate and cherry, "Garzón Dorado" is a remarkably delicious expression of Colombian coffee.</p>
+                <a href="/our-coffees/05-18-garzon-dorado" class="button button-secondary-white button-with-arrow button-medium button-left">Read more<span class="button-arrow"></span></a>
             </div>
             <div class="two-thirds image-right">
                 <img src="/assets/images/product-shot@2x.jpg" />
