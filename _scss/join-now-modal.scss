@@ -1,4 +1,6 @@
 #join-now-modal {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
     position:fixed;
     display:table;
     height:100%;
@@ -54,6 +56,7 @@
             position:relative;
             width: 900px;
             z-index: 200;
+            padding: 0 !important;
         }
         #pricing-box {
             width: 50%;
@@ -65,7 +68,7 @@
             top: 0;
             right: 0;
             height: 100%;
-            background-image: url(/assets/images/product-shot@2x.jpg);
+            background-image: url(/assets/images/join-now@2x.jpg);
             background-size: cover;
             background-position: 50% 50%;
             border-radius: 0 16px 16px 0;
@@ -161,10 +164,7 @@
 }
 
 @media screen and (max-width: 640px) { 
-    .box {
-        margin-bottom: 0;
-    }
-    #join-now-modal {  
+    #join-now-modal {
         padding: 0;
         .modal { 
             padding: 0 !important;

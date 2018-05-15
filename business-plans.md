@@ -9,7 +9,15 @@ keywords: coffee, single origin, Colombia, Colombian, small-batch roasted, works
 {% include hero-business-subscriptions.html %}
 <div class="spacer-60"></div>
 {% include business-subscription-boxes-cyo.html %}
-<div class="spacer-120"></div>
+<div class="spacer-60"></div>
+<div class="outer">
+    <div class="inner">
+        <div class="box">
+            <p class="biz-box">Have questions about our coffee, or want some advice on coffee equipment? We will work with you to create a custom plan for your workspace. Email us at <a href="mailto:hello@questcoffeeclub.com?subject=Workspace Inquiry for coffee">hello@questcoffeeclub.com</a>.</p>
+        </div>
+    </div>
+</div>
+<div class="spacer-60"></div>
 <div class="outer">
     <div class="inner">
         <div class="expand">
@@ -23,7 +31,7 @@ keywords: coffee, single origin, Colombia, Colombian, small-batch roasted, works
                 <p class="highlight">New, unique coffee each month</p>
             </div>
             <div class="two-thirds image-right">
-                <img src="/assets/images/temp-image-two-thirds@2x.png" />
+                <img src="/assets/images/what-will-you-get-business@2x.jpg" />
             </div>
         </div>
     </div>

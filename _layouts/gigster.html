@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+  {% include head.html %}
+  <body class="biz-gigster">
+    {% include join-now-modal.html %}
+    {% include header-gigster.html %}
+    {{ content }}
+    {% include footer.html %}
+    {% include analytics.html %}
+    {% include plasso-individual.html %}
+    {% include js.html %}
+    {% minibundle js %}
+        source_dir: _scripts
+        destination_path: /js/site
+        baseurl: '{{ site.baseurl }}'
+        assets:
+            - jquery-3.3.1.min
+            - jquery.waitforimages.min
+            - masonry.pkgd.min
+            - main
+            - join-now-modal
+    {% endminibundle %}
+  </body>
+</html>

@@ -1,5 +1,35 @@
 // heros
 
+// height of homepage hero
+if($("#hero-landing" + name).length > 0) {
+    var windowHeight = $(window).height();
+    if (windowHeight < 850 && windowHeight > 650) {
+        $("#hero-landing").css("height", windowHeight);
+        $("#scroll-arrow").delay(3000).queue(function(next){
+            $(this).addClass("show");
+        });
+        $(window).scroll(function (event) {
+            $("#scroll-arrow").removeClass("show");
+        });
+    }
+}
+
+// height of homepage hero
+if ($("#hero-landing-biz-gigster").length > 0) {
+    console.log("gigster page");
+    var windowHeight = $(window).height();
+    if (windowHeight < 850 && windowHeight > 650) {
+        $("#hero-landing-biz-gigster").css("height", windowHeight);
+        $("#scroll-arrow").delay(3000).queue(function(next){
+            $(this).addClass("show");
+        });
+        $(window).scroll(function (event) {
+            $("#scroll-arrow").removeClass("show");
+        });
+    }
+}
+
+
 $('.hero-background').waitForImages().done(function() {
     $('.hero-cover').fadeOut(650);
 });
@@ -136,7 +166,7 @@ $(".select-quantity-dropdown").change(function () {
     }
 });
 
-// Pricing dropdown
+// Pricing dropdown join now dialog
 $("#join-now-quantity-select").change(function () {
     var value = this.value;
     var price = $("#select-price");
@@ -165,12 +195,41 @@ $("#join-now-quantity-select").change(function () {
     }
 });
 
+// Pricing dropdown pricing page
+$("#join-now-quantity-select-pricing").change(function () {
+    var value = this.value;
+    var price = $("#select-price-price");
+    var plural = $(".plural-price");
+    var button = $("#add-to-cart-price");
+    console.log(value);
+    if (value == "1") {
+        price.html("$20");    
+        plural.removeClass("visible");
+        button.attr("data-pl-units", "1");
+    }
+    if (value == "2") {
+        price.html("$30");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "2");
+    }
+    if (value == "3") {
+        price.html("$45");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "3");
+    }
+    if (value == "4") {
+        price.html("$60");    
+        plural.addClass("visible");
+        button.attr("data-pl-units", "4");
+    }
+});
+
 // Business pricing dropdown
 $("#join-now-quantity-select-biz").change(function () {
     var value = this.value;
-    var price = $("#select-price");
+    var price = $("#select-biz-price");
     var plural = $(".plural");
-    var button = $("#add-to-cart");
+    var button = $("#add-to-cart-biz");
     console.log(value);
     if (value == "1") {
         price.html("$70");    
@@ -188,7 +247,7 @@ $("#join-now-quantity-select-biz").change(function () {
         button.attr("data-pl-units", "3");
     }
     if (value == "4") {
-        price.html("$250");    
+        price.html("$260");    
         plural.addClass("visible");
         button.attr("data-pl-units", "4");
     }

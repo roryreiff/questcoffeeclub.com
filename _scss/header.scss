@@ -8,10 +8,9 @@ header {
         width: 102px;
         height: 35px;
         margin-top: 22px;
-        background: url(/assets/images/QCC-logo@2x.png);
+        background-image: url(/assets/images/QCC-logo@2x.png);
         background-size: 102px 35px;
     }
-    
     #menu-button, #menu-button-close {
         display: none;
         position: absolute;
@@ -28,47 +27,59 @@ header {
         margin-top: 22px;
         color: #fff;
     }
-}
-
-nav {    
-    float: right;
-    font-size: 12px;
-    letter-spacing: 1.6px;
-    text-transform: uppercase;
-    width: auto;
-    font-weight: 500;
-    a {
-        color: #fff;
-        display: inline-block;
-        height: 22px;
-        line-height: 22px;
-        padding: 0 4px;
-        margin: 0 0 0 20px;
-        font-size: 12px;
-        font-weight: 500;
-    }
     
-    a:hover {
-        color: rgba(255,255,255,.85);
-    }
-    
-    span.new {
-        display: inline-block;
-        height: 22px;
-        background-color: #EF623B;
-        border-radius: 22px;
-        font-size: 10px;
+    nav {    
         float: right;
-        line-height: 22px;
-        padding: 0 8px;
-        margin-left: 4px;
-
-    }
-    #cart-icon {
-        cursor: pointer;
+        font-size: 12px;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        width: auto;
+        font-weight: 500;
+        a {
+            color: #fff;
+            display: inline-block;
+            height: 22px;
+            line-height: 22px;
+            padding: 0 4px;
+            margin: 0 0 0 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        a:hover {
+            color: rgba(255,255,255,.85);
+        }
+        span.new {
+            display: inline-block;
+            height: 22px;
+            background-color: #EF623B;
+            border-radius: 22px;
+            font-size: 10px;
+            float: right;
+            line-height: 22px;
+            padding: 0 8px;
+            margin-left: 4px;
+        }
+        #cart-icon {
+            cursor: pointer;
+        }
     }
 }
-    
+
+
+header.scroll {
+    box-shadow: 0 0 20px rgba(0,0,0,.08);
+    position: fixed;
+    background: #fff;
+    #logo {
+        background-image: url(/assets/images/QCC-logo-dark@2x.png);
+    }
+    nav {
+        a {
+            color: #292929;
+        }
+    }
+}
+
 header.mobile {
     #menu-button-close { 
         display: inline-block;
@@ -123,6 +134,25 @@ header.remove-header {
   display: none;
   top: -200px;
   }
+
+/* gigster banner */
+.special-pricing-banner {
+    position: relative;
+    text-align: center;
+    z-index: 50000; 
+    background: #EF623B;
+    height: 40px;
+    font-size: 12px;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    .bold {
+        text-decoration: underline;
+        padding: 0;
+    }
+}
 
 
 @media screen and (max-width: 1100px) { 
