@@ -36,9 +36,9 @@ keywords: coffee, single origin, small-batch roasted, artisanal, Colombia, Colom
         <h2>We send you delicious coffee</h2>
         <div class="expand">
             <div class="third">
-                <h3>Say hi to our April coffee</h3>
-                <p>With tasting notes of Meyer lemon, chocolate and cherry, "Garzón Dorado" is a remarkably delicious expression of Colombian coffee.</p>
-                <a href="/our-coffees/05-18-garzon-dorado" class="button button-secondary-white button-with-arrow button-medium button-left">Read more<span class="button-arrow"></span></a>
+                <h3>Say hi to our June coffee</h3>
+                <p>Tasting notes of chocolate covered raisins, roasted almonds and dried cherry... all thanks to a priest in the 1700s.</p>
+                <a href="/our-coffees/06-18-el-cura-bogotano" class="button button-secondary-white button-with-arrow button-medium button-left">Read more<span class="button-arrow"></span></a>
             </div>
             <div class="two-thirds image-right">
                 <img src="/assets/images/product-shot@2x.jpg" />
